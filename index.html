@@ -1,4 +1,4 @@
-<!doctype html><html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/><meta http-equiv="X-UA-Compatible" content="IE=EDGE"/><title>CavFish</title><link rel="shortcut icon" href="assets/exb.ico"><base href="./cdn/3/"/><style>html {
+<!doctype html><html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/><meta http-equiv="X-UA-Compatible" content="IE=EDGE"/><title>CavFish</title><link rel="shortcut icon" href="assets/exb.ico"><base href="./cdn/1/"/><style>html {
 				scrollbar-color: var(--light-600) var(--light-200);
 			}
 			html, body{
@@ -33,12 +33,12 @@
 
 			var appFolderName = '.';
 			var useStructuralUrl = false;
-			var arcgisJsApiUrl = 'https://js.arcgis.com/4.23/';
+			var arcgisJsApiUrl = 'https://js.arcgis.com/4.24/';
 
 			// isDevEdition is set to false in webpack, developer edition node server will replace it to true
 			var isDevEdition = false;
 
-			var buildNumber = '3';
+			var buildNumber = '1';
 			var isBuilder = false;
 			var isSite = false;
 
@@ -386,7 +386,7 @@
 		head.removeChild(script);
 		window.onerror = orgOnerror;
 	}</script><script>window.jimuUA = bowser.parse(window.navigator.userAgent);
-			if(window.jimuUA.browser.name === 'Internet Explorer'){
+			if(window.jimuUA.browser.name === 'Internet Explorer' || typeof window.ResizeObserver !== 'function'){
 				window.location.href = mountPath + 'unsupported-browser/index.html';
 			}else{
 				SystemJS.import(jimuConfig.appFolderName + '/index.js');
