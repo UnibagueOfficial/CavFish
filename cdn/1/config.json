@@ -5645,17 +5645,16 @@
           "type": "WIDGET",
           "bbox": {
             "left": "0px",
-            "right": "1280px",
-            "top": "16px",
-            "bottom": "536px",
+            "right": "800px",
+            "top": "76px",
+            "bottom": "576px",
             "width": "800px",
-            "height": "0px"
+            "height": 36
           },
           "widgetId": "widget_1080",
           "setting": {
             "heightMode": "fixed"
-          },
-          "isPending": false
+          }
         }
       },
       "order": [
@@ -8058,13 +8057,15 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
-            }
+              "height": "AUTO"
+            },
+            "heightMode": "fixed",
+            "aspectRatio": 0.08
           },
           "bbox": {
             "left": 1,
             "width": 11,
-            "height": "40px"
+            "height": "33px"
           },
           "widgetId": "widget_662"
         }
@@ -8169,7 +8170,7 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -8275,7 +8276,7 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -8313,7 +8314,7 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -8351,7 +8352,7 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -8389,7 +8390,7 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -8427,7 +8428,7 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -8465,7 +8466,7 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -8503,7 +8504,7 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -26264,11 +26265,8 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "0px",
-            "right": "NaNpx",
-            "top": "NaNpx",
-            "bottom": "NaNpx",
-            "width": "8px",
+            "left": 0,
+            "width": 12,
             "height": "0.00px"
           },
           "widgetId": "widget_1081",
@@ -30911,7 +30909,7 @@
       "version": "1.9.0",
       "label": "Texto 1 Encabezado",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 50px; font-family: &quot;Avenir Next&quot;;\">Catálogo visual</strong></p><p style=\"text-align: center;\"><span style=\"font-size: 21px; color: rgba(255, 234, 29, 0.89); font-family: &quot;Avenir Next&quot;;\">de Peces de Agua Dulce - Colombia</span></p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 50px;\">Catálogo Visual</strong></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; color: rgba(255, 234, 29, 0.89); font-size: 21px;\">de Peces de Agua Dulce - Colombia</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -34986,11 +34984,11 @@
               "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
               "rootDataSourceId": "dataSource_15",
               "fields": [
-                "Epíteto_específico",
-                "Nombre_común",
                 "Género",
+                "Epíteto_específico",
                 "Orden",
                 "Familia",
+                "Nombre_común",
                 "Uso",
                 "Estado_de_concervación",
                 "Cuenca_hidrográfica"
@@ -35001,969 +34999,40 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Epíteto_específico",
-                  "operator": "STRING_OPERATOR_IS",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "UNIQUE_PREDEFINED",
-                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
-                    "value": [
-                      {
-                        "value": "-empty-",
-                        "label": null,
-                        "alias": null,
-                        "selected": true
-                      },
-                      {
-                        "value": "aequilabiatus",
-                        "label": "aequilabiatus",
-                        "alias": "aequilabiatus",
-                        "selected": false
-                      },
-                      {
-                        "value": "affinis",
-                        "label": "affinis",
-                        "alias": "affinis",
-                        "selected": false
-                      },
-                      {
-                        "value": "atricaudus",
-                        "label": "atricaudus",
-                        "alias": "atricaudus",
-                        "selected": false
-                      },
-                      {
-                        "value": "aureus",
-                        "label": "aureus",
-                        "alias": "aureus",
-                        "selected": false
-                      },
-                      {
-                        "value": "brevilabiatum",
-                        "label": "brevilabiatum",
-                        "alias": "brevilabiatum",
-                        "selected": false
-                      },
-                      {
-                        "value": "brevipinnis",
-                        "label": "brevipinnis",
-                        "alias": "brevipinnis",
-                        "selected": false
-                      },
-                      {
-                        "value": "caucana",
-                        "label": "caucana",
-                        "alias": "caucana",
-                        "selected": false
-                      },
-                      {
-                        "value": "caucanus",
-                        "label": "caucanus",
-                        "alias": "caucanus",
-                        "selected": false
-                      },
-                      {
-                        "value": "cephalaspis",
-                        "label": "cephalaspis",
-                        "alias": "cephalaspis",
-                        "selected": false
-                      },
-                      {
-                        "value": "cochliodon",
-                        "label": "cochliodon",
-                        "alias": "cochliodon",
-                        "selected": false
-                      },
-                      {
-                        "value": "colombianus",
-                        "label": "colombianus",
-                        "alias": "colombianus",
-                        "selected": false
-                      },
-                      {
-                        "value": "crocodili",
-                        "label": "crocodili",
-                        "alias": "crocodili",
-                        "selected": false
-                      },
-                      {
-                        "value": "crypticus",
-                        "label": "crypticus",
-                        "alias": "crypticus",
-                        "selected": false
-                      },
-                      {
-                        "value": "cuspicaudus",
-                        "label": "cuspicaudus",
-                        "alias": "cuspicaudus",
-                        "selected": false
-                      },
-                      {
-                        "value": "dariensis",
-                        "label": "dariensis",
-                        "alias": "dariensis",
-                        "selected": false
-                      },
-                      {
-                        "value": "dayi",
-                        "label": "dayi",
-                        "alias": "dayi",
-                        "selected": false
-                      },
-                      {
-                        "value": "fabricioi",
-                        "label": "fabricioi",
-                        "alias": "fabricioi",
-                        "selected": false
-                      },
-                      {
-                        "value": "filamentosa",
-                        "label": "filamentosa",
-                        "alias": "filamentosa",
-                        "selected": false
-                      },
-                      {
-                        "value": "floridablancaensis",
-                        "label": "floridablancaensis",
-                        "alias": "floridablancaensis",
-                        "selected": false
-                      },
-                      {
-                        "value": "grosskopfii",
-                        "label": "grosskopfii",
-                        "alias": "grosskopfii",
-                        "selected": false
-                      },
-                      {
-                        "value": "hastata",
-                        "label": "hastata",
-                        "alias": "hastata",
-                        "selected": false
-                      },
-                      {
-                        "value": "henni",
-                        "label": "henni",
-                        "alias": "henni",
-                        "selected": false
-                      },
-                      {
-                        "value": "hondae",
-                        "label": "hondae",
-                        "alias": "hondae",
-                        "selected": false
-                      },
-                      {
-                        "value": "hujeta",
-                        "label": "hujeta",
-                        "alias": "hujeta",
-                        "selected": false
-                      },
-                      {
-                        "value": "insignis",
-                        "label": "insignis",
-                        "alias": "insignis",
-                        "selected": false
-                      },
-                      {
-                        "value": "kraussii",
-                        "label": "kraussii",
-                        "alias": "kraussii",
-                        "selected": false
-                      },
-                      {
-                        "value": "latifrons",
-                        "label": "latifrons",
-                        "alias": "latifrons",
-                        "selected": false
-                      },
-                      {
-                        "value": "leightoni",
-                        "label": "leightoni",
-                        "alias": "leightoni",
-                        "selected": false
-                      },
-                      {
-                        "value": "longirostris",
-                        "label": "longirostris",
-                        "alias": "longirostris",
-                        "selected": false
-                      },
-                      {
-                        "value": "maculatus",
-                        "label": "maculatus",
-                        "alias": "maculatus",
-                        "selected": false
-                      },
-                      {
-                        "value": "magdalenae",
-                        "label": "magdalenae",
-                        "alias": "magdalenae",
-                        "selected": false
-                      },
-                      {
-                        "value": "magdalenensis",
-                        "label": "magdalenensis",
-                        "alias": "magdalenensis",
-                        "selected": false
-                      },
-                      {
-                        "value": "magdaleniatum",
-                        "label": "magdaleniatum",
-                        "alias": "magdaleniatum",
-                        "selected": false
-                      },
-                      {
-                        "value": "magnus",
-                        "label": "magnus",
-                        "alias": "magnus",
-                        "selected": false
-                      },
-                      {
-                        "value": "malabaricus",
-                        "label": "malabaricus",
-                        "alias": "malabaricus",
-                        "selected": false
-                      },
-                      {
-                        "value": "marmoratus",
-                        "label": "marmoratus",
-                        "alias": "marmoratus",
-                        "selected": false
-                      },
-                      {
-                        "value": "melanocheir",
-                        "label": "melanocheir",
-                        "alias": "melanocheir",
-                        "selected": false
-                      },
-                      {
-                        "value": "minuta",
-                        "label": "minuta",
-                        "alias": "minuta",
-                        "selected": false
-                      },
-                      {
-                        "value": "mivartii",
-                        "label": "mivartii",
-                        "alias": "mivartii",
-                        "selected": false
-                      },
-                      {
-                        "value": "moorei",
-                        "label": "moorei",
-                        "alias": "moorei",
-                        "selected": false
-                      },
-                      {
-                        "value": "muyscorum",
-                        "label": "muyscorum",
-                        "alias": "muyscorum",
-                        "selected": false
-                      },
-                      {
-                        "value": "nasus",
-                        "label": "nasus",
-                        "alias": "nasus",
-                        "selected": false
-                      },
-                      {
-                        "value": "pardalis",
-                        "label": "pardalis",
-                        "alias": "pardalis",
-                        "selected": false
-                      },
-                      {
-                        "value": "rubricauda",
-                        "label": "rubricauda",
-                        "alias": "rubricauda",
-                        "selected": false
-                      },
-                      {
-                        "value": "steindachneri",
-                        "label": "steindachneri",
-                        "alias": "steindachneri",
-                        "selected": false
-                      },
-                      {
-                        "value": "umbrifer",
-                        "label": "umbrifer",
-                        "alias": "umbrifer",
-                        "selected": false
-                      },
-                      {
-                        "value": "usmai",
-                        "label": "usmai",
-                        "alias": "usmai",
-                        "selected": false
-                      },
-                      {
-                        "value": "vittatus",
-                        "label": "vittatus",
-                        "alias": "vittatus",
-                        "selected": false
-                      },
-                      {
-                        "value": "yuma",
-                        "label": "yuma",
-                        "alias": "yuma",
-                        "selected": false
-                      }
-                    ]
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": "Especie",
-                    "display": "BLOCK",
-                    "hint": "",
-                    "cascade": "NONE"
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Nombre_común",
-                  "operator": "STRING_OPERATOR_IS",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "UNIQUE_PREDEFINED",
-                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
-                    "value": [
-                      {
-                        "value": "-empty-",
-                        "label": null,
-                        "alias": null,
-                        "selected": true
-                      },
-                      {
-                        "value": "Agujeto",
-                        "label": "Agujeto",
-                        "alias": "Agujeto",
-                        "selected": false
-                      },
-                      {
-                        "value": "Anguilla, culebra de agua",
-                        "label": "Anguilla, culebra de agua",
-                        "alias": "Anguilla, culebra de agua",
-                        "selected": false
-                      },
-                      {
-                        "value": "Arenca",
-                        "label": "Arenca",
-                        "alias": "Arenca",
-                        "selected": false
-                      },
-                      {
-                        "value": "Bagre rayado",
-                        "label": "Bagre rayado",
-                        "alias": "Bagre rayado",
-                        "selected": false
-                      },
-                      {
-                        "value": "Bagre sapo cola negra",
-                        "label": "Bagre sapo cola negra",
-                        "alias": "Bagre sapo cola negra",
-                        "selected": false
-                      },
-                      {
-                        "value": "Bagre sapo mayor",
-                        "label": "Bagre sapo mayor",
-                        "alias": "Bagre sapo mayor",
-                        "selected": false
-                      },
-                      {
-                        "value": "Barbudo, capaz",
-                        "label": "Barbudo, capaz",
-                        "alias": "Barbudo, capaz",
-                        "selected": false
-                      },
-                      {
-                        "value": "Barbudo, nicuro",
-                        "label": "Barbudo, nicuro",
-                        "alias": "Barbudo, nicuro",
-                        "selected": false
-                      },
-                      {
-                        "value": "Blanquillo",
-                        "label": "Blanquillo",
-                        "alias": "Blanquillo",
-                        "selected": false
-                      },
-                      {
-                        "value": "Bocachico",
-                        "label": "Bocachico",
-                        "alias": "Bocachico",
-                        "selected": false
-                      },
-                      {
-                        "value": "Cachegua, tapaolla",
-                        "label": "Cachegua, tapaolla",
-                        "alias": "Cachegua, tapaolla",
-                        "selected": false
-                      },
-                      {
-                        "value": "Capitán, barbudo negro",
-                        "label": "Capitán, barbudo negro",
-                        "alias": "Capitán, barbudo negro",
-                        "selected": false
-                      },
-                      {
-                        "value": "Chango",
-                        "label": "Chango",
-                        "alias": "Chango",
-                        "selected": false
-                      },
-                      {
-                        "value": "Changuito",
-                        "label": "Changuito",
-                        "alias": "Changuito",
-                        "selected": false
-                      },
-                      {
-                        "value": "Chipe",
-                        "label": "Chipe",
-                        "alias": "Chipe",
-                        "selected": false
-                      },
-                      {
-                        "value": "Comelón, dentón, mohino",
-                        "label": "Comelón, dentón, mohino",
-                        "alias": "Comelón, dentón, mohino",
-                        "selected": false
-                      },
-                      {
-                        "value": "Corroncho",
-                        "label": "Corroncho",
-                        "alias": "Corroncho",
-                        "selected": false
-                      },
-                      {
-                        "value": "Corroncho, guacuco, raspacanoa, sotapinga",
-                        "label": "Corroncho, guacuco, raspacanoa, sotapinga",
-                        "alias": "Corroncho, guacuco, raspacanoa, sotapinga",
-                        "selected": false
-                      },
-                      {
-                        "value": "Cucha",
-                        "label": "Cucha",
-                        "alias": "Cucha",
-                        "selected": false
-                      },
-                      {
-                        "value": "Cucha ojo azul",
-                        "label": "Cucha ojo azul",
-                        "alias": "Cucha ojo azul",
-                        "selected": false
-                      },
-                      {
-                        "value": "Doncella",
-                        "label": "Doncella",
-                        "alias": "Doncella",
-                        "selected": false
-                      },
-                      {
-                        "value": "Dorada, mueluda",
-                        "label": "Dorada, mueluda",
-                        "alias": "Dorada, mueluda",
-                        "selected": false
-                      },
-                      {
-                        "value": "Guppy",
-                        "label": "Guppy",
-                        "alias": "Guppy",
-                        "selected": false
-                      },
-                      {
-                        "value": "Jetudo, pataló",
-                        "label": "Jetudo, pataló",
-                        "alias": "Jetudo, pataló",
-                        "selected": false
-                      },
-                      {
-                        "value": "Mantequillo",
-                        "label": "Mantequillo",
-                        "alias": "Mantequillo",
-                        "selected": false
-                      },
-                      {
-                        "value": "Matacaiman, carrache",
-                        "label": "Matacaiman, carrache",
-                        "alias": "Matacaiman, carrache",
-                        "selected": false
-                      },
-                      {
-                        "value": "Mayupa",
-                        "label": "Mayupa",
-                        "alias": "Mayupa",
-                        "selected": false
-                      },
-                      {
-                        "value": "Mazorco",
-                        "label": "Mazorco",
-                        "alias": "Mazorco",
-                        "selected": false
-                      },
-                      {
-                        "value": "Mazorco, rollizo, bonito, rayado",
-                        "label": "Mazorco, rollizo, bonito, rayado",
-                        "alias": "Mazorco, rollizo, bonito, rayado",
-                        "selected": false
-                      },
-                      {
-                        "value": "Mojarra amarilla",
-                        "label": "Mojarra amarilla",
-                        "alias": "Mojarra amarilla",
-                        "selected": false
-                      },
-                      {
-                        "value": "Mojarra negra",
-                        "label": "Mojarra negra",
-                        "alias": "Mojarra negra",
-                        "selected": false
-                      },
-                      {
-                        "value": "Mojarra, mula",
-                        "label": "Mojarra, mula",
-                        "alias": "Mojarra, mula",
-                        "selected": false
-                      },
-                      {
-                        "value": "Moncholo",
-                        "label": "Moncholo",
-                        "alias": "Moncholo",
-                        "selected": false
-                      },
-                      {
-                        "value": "Mula",
-                        "label": "Mula",
-                        "alias": "Mula",
-                        "selected": false
-                      },
-                      {
-                        "value": "Negrito, pez diablo",
-                        "label": "Negrito, pez diablo",
-                        "alias": "Negrito, pez diablo",
-                        "selected": false
-                      },
-                      {
-                        "value": "Palito, sotapinga",
-                        "label": "Palito, sotapinga",
-                        "alias": "Palito, sotapinga",
-                        "selected": false
-                      },
-                      {
-                        "value": "Palometa",
-                        "label": "Palometa",
-                        "alias": "Palometa",
-                        "selected": false
-                      },
-                      {
-                        "value": "Picalón, rengue",
-                        "label": "Picalón, rengue",
-                        "alias": "Picalón, rengue",
-                        "selected": false
-                      },
-                      {
-                        "value": "Picuda",
-                        "label": "Picuda",
-                        "alias": "Picuda",
-                        "selected": false
-                      },
-                      {
-                        "value": "Sabaleta",
-                        "label": "Sabaleta",
-                        "alias": "Sabaleta",
-                        "selected": false
-                      },
-                      {
-                        "value": "Sardina",
-                        "label": "Sardina",
-                        "alias": "Sardina",
-                        "selected": false
-                      },
-                      {
-                        "value": "Sardinata, paloma, sabaleta",
-                        "label": "Sardinata, paloma, sabaleta",
-                        "alias": "Sardinata, paloma, sabaleta",
-                        "selected": false
-                      },
-                      {
-                        "value": "Sardinita",
-                        "label": "Sardinita",
-                        "alias": "Sardinita",
-                        "selected": false
-                      },
-                      {
-                        "value": "Viejito",
-                        "label": "Viejito",
-                        "alias": "Viejito",
-                        "selected": false
-                      },
-                      {
-                        "value": "Vizcaina",
-                        "label": "Vizcaina",
-                        "alias": "Vizcaina",
-                        "selected": false
-                      }
-                    ]
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": "Nombre común",
-                    "display": "BLOCK",
-                    "hint": "",
-                    "cascade": "NONE"
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
                   "jimuFieldName": "Género",
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "UNIQUE_PREDEFINED",
-                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
-                    "value": [
-                      {
-                        "value": "-empty-",
-                        "label": null,
-                        "alias": null,
-                        "selected": true
-                      },
-                      {
-                        "value": "Ageneiosus",
-                        "label": "Ageneiosus",
-                        "alias": "Ageneiosus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Andinoacara",
-                        "label": "Andinoacara",
-                        "alias": "Andinoacara",
-                        "selected": false
-                      },
-                      {
-                        "value": "Argopleura",
-                        "label": "Argopleura",
-                        "alias": "Argopleura",
-                        "selected": false
-                      },
-                      {
-                        "value": "Astroblepus",
-                        "label": "Astroblepus",
-                        "alias": "Astroblepus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Astyanax",
-                        "label": "Astyanax",
-                        "alias": "Astyanax",
-                        "selected": false
-                      },
-                      {
-                        "value": "Brycon",
-                        "label": "Brycon",
-                        "alias": "Brycon",
-                        "selected": false
-                      },
-                      {
-                        "value": "Bunocephalus",
-                        "label": "Bunocephalus",
-                        "alias": "Bunocephalus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Callichthys",
-                        "label": "Callichthys",
-                        "alias": "Callichthys",
-                        "selected": false
-                      },
-                      {
-                        "value": "Caquetaia",
-                        "label": "Caquetaia",
-                        "alias": "Caquetaia",
-                        "selected": false
-                      },
-                      {
-                        "value": "Centrochir",
-                        "label": "Centrochir",
-                        "alias": "Centrochir",
-                        "selected": false
-                      },
-                      {
-                        "value": "Cetopsorhamdia",
-                        "label": "Cetopsorhamdia",
-                        "alias": "Cetopsorhamdia",
-                        "selected": false
-                      },
-                      {
-                        "value": "Chaetostoma",
-                        "label": "Chaetostoma",
-                        "alias": "Chaetostoma",
-                        "selected": false
-                      },
-                      {
-                        "value": "Creagrutus",
-                        "label": "Creagrutus",
-                        "alias": "Creagrutus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Crossoloricaria",
-                        "label": "Crossoloricaria",
-                        "alias": "Crossoloricaria",
-                        "selected": false
-                      },
-                      {
-                        "value": "Ctenolucius",
-                        "label": "Ctenolucius",
-                        "alias": "Ctenolucius",
-                        "selected": false
-                      },
-                      {
-                        "value": "Curimata",
-                        "label": "Curimata",
-                        "alias": "Curimata",
-                        "selected": false
-                      },
-                      {
-                        "value": "Cynopotamus",
-                        "label": "Cynopotamus",
-                        "alias": "Cynopotamus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Cyphocharax",
-                        "label": "Cyphocharax",
-                        "alias": "Cyphocharax",
-                        "selected": false
-                      },
-                      {
-                        "value": "Dasyloricaria",
-                        "label": "Dasyloricaria",
-                        "alias": "Dasyloricaria",
-                        "selected": false
-                      },
-                      {
-                        "value": "Eigenmannia",
-                        "label": "Eigenmannia",
-                        "alias": "Eigenmannia",
-                        "selected": false
-                      },
-                      {
-                        "value": "Gasteropelecus",
-                        "label": "Gasteropelecus",
-                        "alias": "Gasteropelecus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Geophagus",
-                        "label": "Geophagus",
-                        "alias": "Geophagus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Gephyrocharax",
-                        "label": "Gephyrocharax",
-                        "alias": "Gephyrocharax",
-                        "selected": false
-                      },
-                      {
-                        "value": "Hemibrycon",
-                        "label": "Hemibrycon",
-                        "alias": "Hemibrycon",
-                        "selected": false
-                      },
-                      {
-                        "value": "Hoplias",
-                        "label": "Hoplias",
-                        "alias": "Hoplias",
-                        "selected": false
-                      },
-                      {
-                        "value": "Hyphessobrycon",
-                        "label": "Hyphessobrycon",
-                        "alias": "Hyphessobrycon",
-                        "selected": false
-                      },
-                      {
-                        "value": "Hypostomus",
-                        "label": "Hypostomus",
-                        "alias": "Hypostomus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Ichthyoelephas",
-                        "label": "Ichthyoelephas",
-                        "alias": "Ichthyoelephas",
-                        "selected": false
-                      },
-                      {
-                        "value": "Imparfinis",
-                        "label": "Imparfinis",
-                        "alias": "Imparfinis",
-                        "selected": false
-                      },
-                      {
-                        "value": "Kronoheros",
-                        "label": "Kronoheros",
-                        "alias": "Kronoheros",
-                        "selected": false
-                      },
-                      {
-                        "value": "Lasiancistrus",
-                        "label": "Lasiancistrus",
-                        "alias": "Lasiancistrus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Leporellus",
-                        "label": "Leporellus",
-                        "alias": "Leporellus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Megaleporinus",
-                        "label": "Megaleporinus",
-                        "alias": "Megaleporinus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Microgenys",
-                        "label": "Microgenys",
-                        "alias": "Microgenys",
-                        "selected": false
-                      },
-                      {
-                        "value": "Nanocheirodon",
-                        "label": "Nanocheirodon",
-                        "alias": "Nanocheirodon",
-                        "selected": false
-                      },
-                      {
-                        "value": "Panaque",
-                        "label": "Panaque",
-                        "alias": "Panaque",
-                        "selected": false
-                      },
-                      {
-                        "value": "Parodon",
-                        "label": "Parodon",
-                        "alias": "Parodon",
-                        "selected": false
-                      },
-                      {
-                        "value": "Pimelodella",
-                        "label": "Pimelodella",
-                        "alias": "Pimelodella",
-                        "selected": false
-                      },
-                      {
-                        "value": "Pimelodus",
-                        "label": "Pimelodus",
-                        "alias": "Pimelodus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Poecilia",
-                        "label": "Poecilia",
-                        "alias": "Poecilia",
-                        "selected": false
-                      },
-                      {
-                        "value": "Prochilodus",
-                        "label": "Prochilodus",
-                        "alias": "Prochilodus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Pseudopimelodus",
-                        "label": "Pseudopimelodus",
-                        "alias": "Pseudopimelodus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Pseudoplatystoma",
-                        "label": "Pseudoplatystoma",
-                        "alias": "Pseudoplatystoma",
-                        "selected": false
-                      },
-                      {
-                        "value": "Roeboides",
-                        "label": "Roeboides",
-                        "alias": "Roeboides",
-                        "selected": false
-                      },
-                      {
-                        "value": "Saccoderma",
-                        "label": "Saccoderma",
-                        "alias": "Saccoderma",
-                        "selected": false
-                      },
-                      {
-                        "value": "Saccodon",
-                        "label": "Saccodon",
-                        "alias": "Saccodon",
-                        "selected": false
-                      },
-                      {
-                        "value": "Salminus",
-                        "label": "Salminus",
-                        "alias": "Salminus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Sorubim",
-                        "label": "Sorubim",
-                        "alias": "Sorubim",
-                        "selected": false
-                      },
-                      {
-                        "value": "Spatuloricaria",
-                        "label": "Spatuloricaria",
-                        "alias": "Spatuloricaria",
-                        "selected": false
-                      },
-                      {
-                        "value": "Sternopygus",
-                        "label": "Sternopygus",
-                        "alias": "Sternopygus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Sturisomatichthys",
-                        "label": "Sturisomatichthys",
-                        "alias": "Sturisomatichthys",
-                        "selected": false
-                      },
-                      {
-                        "value": "Synbranchus",
-                        "label": "Synbranchus",
-                        "alias": "Synbranchus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Trachelyopterus",
-                        "label": "Trachelyopterus",
-                        "alias": "Trachelyopterus",
-                        "selected": false
-                      },
-                      {
-                        "value": "Triportheus",
-                        "label": "Triportheus",
-                        "alias": "Triportheus",
-                        "selected": false
-                      }
-                    ]
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": null
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
                     "label": "Género",
                     "display": "BLOCK",
                     "hint": "",
-                    "cascade": "NONE"
+                    "cascade": "ALL"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "Epíteto_específico",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "Epíteto",
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "ALL"
                   },
                   "displayLabel": null,
                   "caseSensitive": false
@@ -35974,59 +35043,16 @@
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "UNIQUE_PREDEFINED",
-                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
-                    "value": [
-                      {
-                        "value": "-empty-",
-                        "label": null,
-                        "alias": null,
-                        "selected": true
-                      },
-                      {
-                        "value": "Characiformes",
-                        "label": "Characiformes",
-                        "alias": "Characiformes",
-                        "selected": false
-                      },
-                      {
-                        "value": "Cichliformes",
-                        "label": "Cichliformes",
-                        "alias": "Cichliformes",
-                        "selected": false
-                      },
-                      {
-                        "value": "Cyprinodontiformes",
-                        "label": "Cyprinodontiformes",
-                        "alias": "Cyprinodontiformes",
-                        "selected": false
-                      },
-                      {
-                        "value": "Gymnotiformes",
-                        "label": "Gymnotiformes",
-                        "alias": "Gymnotiformes",
-                        "selected": false
-                      },
-                      {
-                        "value": "Siluriformes",
-                        "label": "Siluriformes",
-                        "alias": "Siluriformes",
-                        "selected": false
-                      },
-                      {
-                        "value": "Synbranchiformes",
-                        "label": "Synbranchiformes",
-                        "alias": "Synbranchiformes",
-                        "selected": false
-                      }
-                    ]
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": null
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
                     "label": "Orden",
                     "display": "BLOCK",
                     "hint": "",
-                    "cascade": "NONE"
+                    "cascade": "ALL"
                   },
                   "displayLabel": null,
                   "caseSensitive": false
@@ -36037,161 +35063,36 @@
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "UNIQUE_PREDEFINED",
-                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
-                    "value": [
-                      {
-                        "value": "-empty-",
-                        "label": null,
-                        "alias": null,
-                        "selected": true
-                      },
-                      {
-                        "value": "Anostomidae",
-                        "label": "Anostomidae",
-                        "alias": "Anostomidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Aspredinidae",
-                        "label": "Aspredinidae",
-                        "alias": "Aspredinidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Astroblepidae",
-                        "label": "Astroblepidae",
-                        "alias": "Astroblepidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Auchenipteridae",
-                        "label": "Auchenipteridae",
-                        "alias": "Auchenipteridae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Bryconidae",
-                        "label": "Bryconidae",
-                        "alias": "Bryconidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Callichthyidae",
-                        "label": "Callichthyidae",
-                        "alias": "Callichthyidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Characidae",
-                        "label": "Characidae",
-                        "alias": "Characidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Cichlidae",
-                        "label": "Cichlidae",
-                        "alias": "Cichlidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Ctenoluciidae",
-                        "label": "Ctenoluciidae",
-                        "alias": "Ctenoluciidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Curimatidae",
-                        "label": "Curimatidae",
-                        "alias": "Curimatidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Doradidae",
-                        "label": "Doradidae",
-                        "alias": "Doradidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Erythrinidae",
-                        "label": "Erythrinidae",
-                        "alias": "Erythrinidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Gasteropelecidae",
-                        "label": "Gasteropelecidae",
-                        "alias": "Gasteropelecidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Heptapteridae",
-                        "label": "Heptapteridae",
-                        "alias": "Heptapteridae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Loricariidae",
-                        "label": "Loricariidae",
-                        "alias": "Loricariidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Parodontidae",
-                        "label": "Parodontidae",
-                        "alias": "Parodontidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Pimelodidae",
-                        "label": "Pimelodidae",
-                        "alias": "Pimelodidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Poeciliidae",
-                        "label": "Poeciliidae",
-                        "alias": "Poeciliidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Prochilodontidae",
-                        "label": "Prochilodontidae",
-                        "alias": "Prochilodontidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Pseudopimelodidae",
-                        "label": "Pseudopimelodidae",
-                        "alias": "Pseudopimelodidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Sternopygidae",
-                        "label": "Sternopygidae",
-                        "alias": "Sternopygidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Synbranchidae",
-                        "label": "Synbranchidae",
-                        "alias": "Synbranchidae",
-                        "selected": false
-                      },
-                      {
-                        "value": "Triportheidae",
-                        "label": "Triportheidae",
-                        "alias": "Triportheidae",
-                        "selected": false
-                      }
-                    ]
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": null
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
                     "label": "Familia",
                     "display": "BLOCK",
                     "hint": "",
-                    "cascade": "NONE"
+                    "cascade": "ALL"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "Nombre_común",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "ALL"
                   },
                   "displayLabel": null,
                   "caseSensitive": false
@@ -36381,7 +35282,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Epíteto específico = ?) y (Nombre común = ?) y (Género = ?) y (Orden = ?) y (Familia = ?) y (Uso = ?) y (Estado de conservación = ?) y (Cuenca hidrográfica = ?)"
+              "displaySQL": "(Género = ?) y (Epíteto específico = ?) y (Orden = ?) y (Familia = ?) y (Nombre común = ?) y (Uso = ?) y (Estado de conservación = ?) y (Cuenca hidrográfica = ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -39234,7 +38135,7 @@
       "version": "1.9.0",
       "label": "Texto nombre común",
       "config": {
-        "text": "<p><strong style=\"font-size: 18px;\">Nombre común: </strong><span style=\"font-size: 18px;\"><exp data-uniqueid=\"bce89f72_df91_cbc7_e1ce_93a44acf217e\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20com%C3%BAn%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20com%C3%BAn%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Nombre_com%C3%BAn%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Nombre común}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p>",
+        "text": "<p><strong style=\"font-size: 18px;\">Nombre común: </strong><span style=\"font-size: 18px;\"><exp data-uniqueid=\"bce89f72_df91_cbc7_e1ce_93a44acf217e\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20com%C3%BAn%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20com%C3%BAn%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Nombre_com%C3%BAn%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Nombre común}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -39320,7 +38221,7 @@
       "version": "1.9.0",
       "label": "Texto orden",
       "config": {
-        "text": "<p><strong style=\"font-size: 18px;\">Orden:</strong><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"7eaa1ae1_d346_ffad_7d75_82ed492820eb\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BOrden%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BOrden%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Orden%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{Orden}﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p>",
+        "text": "<p><strong style=\"font-size: 18px;\">Orden:</strong><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"7eaa1ae1_d346_ffad_7d75_82ed492820eb\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BOrden%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BOrden%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Orden%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Orden}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -54833,7 +53734,7 @@
     "title": "CavFish",
     "description": "",
     "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1658933696332.png"
+    "thumbnail": "thumbnail/thumbnail1660226730876.png"
   },
   "sharedThemeVariables": {
     "header": {},
@@ -54892,7 +53793,7 @@
     "backgroundColor": "#000000"
   },
   "customTheme": {},
-  "timestamp": 1658951881496,
+  "timestamp": 1660244913284,
   "screenGroups": {
     "screenGroup_1": {
       "transitionType": "FADE",

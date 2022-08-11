@@ -1,1 +1,20 @@
-{}
+{
+  "filter.svg": {
+    "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 00.852-.356V6.825l5.382-5.295H15zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1z\" fill=\"#000\"></path></svg>?token=9fIf9YfrJ7nY6jXQ2eInPo72A8tabjwGl6bL4lnYNmen8L0pN3WVCv4EbPIkO7WZ8Cfw2GzjiGRUyKKWxSUAMOVjAAq7cnaW7YT8LtQGkTprkT1CZa2ytLKqARcttnyNlbs_mnWTd7J5y4AlSsgO96ACErTGyVtYeU_MoxIaKhIJWJoR9HXz2UFYVrd0hB7mQjaqMuXJ3qw5L9aSvXGvoPgD80ngPrzJtVJXi5hrbDM.",
+    "properties": {
+      "filename": "filter.svg",
+      "originalName": "filter.svg",
+      "path": [
+        "general",
+        "filter"
+      ],
+      "inlineSvg": true
+    }
+  },
+  "Fila": {
+    "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6 5H2v6h4V5ZM1 4v8h6V4H1ZM14 5h-4v6h4V5ZM9 4v8h6V4H9Z\" fill=\"#000\"></path></svg>",
+    "properties": {
+      "filename": "Fila"
+    }
+  }
+}
