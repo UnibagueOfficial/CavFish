@@ -7,7 +7,6 @@ export default {
   selectMapWidget: 'Select a Map widget',
   addBookmark: 'Add bookmark',
   setBookmarkView: 'Set bookmark view',
-  autoPlayAllow: 'Auto play',
   runtimeAddAllow: 'Allow to add bookmarks in widget',
   autoLoopAllow: 'Loop',
   displayFromWeb: 'Display bookmarks from web map',

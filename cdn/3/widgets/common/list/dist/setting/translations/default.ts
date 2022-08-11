@@ -78,5 +78,6 @@ export default {
   layoutGrid: 'Grid',
   sizeAspectRatio: 'Aspect ratio',
   listKeepAspectRatio: 'Keep aspect ratio',
-  listAligment: 'Aligment'
+  listAligment: 'Aligment',
+  gridItemSize: 'Item size'
 }
