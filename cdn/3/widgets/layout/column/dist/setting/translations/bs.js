@@ -1,1 +1,1 @@
-define({verticalAlign:"Okomito poravnaj",spaceAround:"Prostor okolo",spaceBetween:"Prostor između",spaceEvenly:"Prostor ravnomjerno",horizontalAlign:"Vodoravno poravnaj",scrollable:"Moguće je pomicanje"});
+System.register([],(function(o){return{execute:function(){o({verticalAlign:"Okomito poravnaj",spaceAround:"Prostor okolo",spaceBetween:"Prostor između",spaceEvenly:"Prostor ravnomjerno",horizontalAlign:"Vodoravno poravnaj",scrollable:"Moguće je pomicanje"})}}}));

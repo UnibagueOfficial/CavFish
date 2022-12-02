@@ -1,1 +1,1 @@
-define({_widgetLabel:"Schaltfläche"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Schaltfläche"})}}}));

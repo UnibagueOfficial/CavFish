@@ -1,1 +1,1 @@
-define({_widgetLabel:"Filtrar",allExprsMustBeTrue:"Se deben cumplir todas estas expresiones:",anyExprsMustBeTrue:"Se cumple cualquiera de estas expresiones:"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Filtrar",allExprsMustBeTrue:"Se deben cumplir todas estas expresiones:",anyExprsMustBeTrue:"Se cumple cualquiera de estas expresiones:"})}}}));

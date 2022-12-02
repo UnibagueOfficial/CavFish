@@ -14,6 +14,9 @@ System.register(["jimu-core","jimu-ui/advanced/setting-components","jimu-ui","ji
         width: 100%;
         font-size: ${l.polished.rem(13)};
       }
+      button {
+        border-radius: 0;
+      }
       .quick-style-item-container {
         padding-left: 4px;
         padding-right: 4px;

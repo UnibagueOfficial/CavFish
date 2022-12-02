@@ -1,1 +1,1 @@
-define({verticalAlign:"Függőleges igazítás",spaceAround:"Körülötti hely",spaceBetween:"Köztes hely",spaceEvenly:"Egyenletes helyosztás",horizontalAlign:"Vízszintes igazítás",scrollable:"Görgethető"});
+System.register([],(function(e){return{execute:function(){e({verticalAlign:"Függőleges igazítás",spaceAround:"Körülötti hely",spaceBetween:"Köztes hely",spaceEvenly:"Egyenletes helyosztás",horizontalAlign:"Vízszintes igazítás",scrollable:"Görgethető"})}}}));

@@ -2,8 +2,8 @@
   "name": "divider",
   "label": "Divider",
   "type": "widget",
-  "version": "1.9.0",
-  "exbVersion": "1.9.0",
+  "version": "1.10.0",
+  "exbVersion": "1.10.0",
   "author": "Esri R&D Center Beijing",
   "description": "A widget to display data in a Divider view.",
   "copyright": "",
@@ -13,7 +13,6 @@
     "height": 50
   },
   "properties": {
-    "hasEmbeddedLayout": true,
     "lockChildren": true,
     "canCrossLayoutBoundary": true,
     "flipIcon": true,

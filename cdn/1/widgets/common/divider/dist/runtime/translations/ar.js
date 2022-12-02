@@ -1,1 +1,1 @@
-define({_widgetLabel:"المقسم",quickStyleItem:"نمط سريع {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"المقسم",quickStyleItem:"نمط سريع {index}"})}}}));

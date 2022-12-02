@@ -1,1 +1,1 @@
-define({_widgetLabel:"Poga"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Poga"})}}}));

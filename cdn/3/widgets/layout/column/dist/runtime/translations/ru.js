@@ -1,1 +1,1 @@
-define({_widgetLabel:"Столбец",widgetProperties:"Свойства виджета",widgetFunctions:"Функции виджета",widgetName:"имя виджета:",widgetProps:"свойства виджета:",tips:"Столбец"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Столбец",widgetProperties:"Свойства виджета",widgetFunctions:"Функции виджета",widgetName:"имя виджета:",widgetProps:"свойства виджета:",tips:"Столбец"})}}}));

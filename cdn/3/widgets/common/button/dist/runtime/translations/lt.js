@@ -1,1 +1,1 @@
-define({_widgetLabel:"Mygtukas"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Mygtukas"})}}}));

@@ -1,1 +1,1 @@
-define({_widgetLabel:"Pulsante"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Pulsante"})}}}));

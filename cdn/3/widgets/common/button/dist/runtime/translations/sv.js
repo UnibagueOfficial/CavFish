@@ -1,1 +1,1 @@
-define({_widgetLabel:"Knapp"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Knapp"})}}}));

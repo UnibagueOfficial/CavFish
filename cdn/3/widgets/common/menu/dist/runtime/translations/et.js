@@ -1,1 +1,1 @@
-define({_widgetLabel:"Menüü"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Menüü"})}}}));

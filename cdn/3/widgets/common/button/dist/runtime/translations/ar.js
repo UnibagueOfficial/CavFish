@@ -1,1 +1,1 @@
-define({_widgetLabel:"زر"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"زر"})}}}));

@@ -6,7 +6,6 @@ export default {
   setFilterItem: 'Create new filter',
   sqlExpr: 'SQL Expressions',
   sqlExprDesc: 'Add SQL expressions to your filter.',
-  openFilterBuilder: 'SQL Expression Builder',
   setExprTips: 'Please add your SQL expressions first.',
   options: 'Options',
   autoApplyWhenWidgetOpen: 'Apply this filter automatically',

@@ -1,1 +1,1 @@
-define({_widgetLabel:"Σειρά",widgetProperties:"Ιδιότητες του widget",widgetFunctions:"Λειτουργίες του widget",widgetName:"όνομα του widget:",widgetProps:"ιδιότητες του widget:",tips:"Σειρά"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Σειρά",widgetProperties:"Ιδιότητες του widget",widgetFunctions:"Λειτουργίες του widget",widgetName:"όνομα του widget:",widgetProps:"ιδιότητες του widget:",tips:"Σειρά"})}}}));

@@ -1,1 +1,1 @@
-define({_widgetLabel:"Trennlinie",quickStyleItem:"Schnellformat {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Trennlinie",quickStyleItem:"Schnellformat {index}"})}}}));

@@ -1,1 +1,1 @@
-define({_widgetLabel:"Stĺpec",widgetProperties:"Vlastnosti widgetu",widgetFunctions:"Funkcie widgetu",widgetName:"názov widgetu:",widgetProps:"vlastnosti widgetu:",tips:"Stĺpec"});
+System.register([],(function(t){return{execute:function(){t({_widgetLabel:"Stĺpec",widgetProperties:"Vlastnosti widgetu",widgetFunctions:"Funkcie widgetu",widgetName:"názov widgetu:",widgetProps:"vlastnosti widgetu:",tips:"Stĺpec"})}}}));

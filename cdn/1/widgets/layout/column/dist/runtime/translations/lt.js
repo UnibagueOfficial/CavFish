@@ -1,1 +1,1 @@
-define({_widgetLabel:"Stulpelis",widgetProperties:"Valdiklio savybės",widgetFunctions:"Valdiklio funkcijos",widgetName:"valdiklio pavadinimas:",widgetProps:"valdiklio savybės:",tips:"Stulpelis"});
+System.register([],(function(i){return{execute:function(){i({_widgetLabel:"Stulpelis",widgetProperties:"Valdiklio savybės",widgetFunctions:"Valdiklio funkcijos",widgetName:"valdiklio pavadinimas:",widgetProps:"valdiklio savybės:",tips:"Stulpelis"})}}}));

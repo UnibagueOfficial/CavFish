@@ -1,1 +1,1 @@
-define({_widgetLabel:"Oddělovač",quickStyleItem:"Rychlý styl {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Oddělovač",quickStyleItem:"Rychlý styl {index}"})}}}));

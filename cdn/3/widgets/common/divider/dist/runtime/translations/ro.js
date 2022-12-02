@@ -1,1 +1,1 @@
-define({_widgetLabel:"Divizor",quickStyleItem:"Stil rapid {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Divizor",quickStyleItem:"Stil rapid {index}"})}}}));

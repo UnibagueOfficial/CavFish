@@ -1,1 +1,1 @@
-define({subMenuExpandMode:"Utvidelsesmodus undermeny",mainMenu:"Hovedmeny",subMenu:"Undermeny"});
+System.register([],(function(e){return{execute:function(){e({subMenuExpandMode:"Utvidelsesmodus undermeny",mainMenu:"Hovedmeny",subMenu:"Undermeny"})}}}));

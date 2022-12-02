@@ -1,1 +1,1 @@
-define({_widgetLabel:"Divisor",quickStyleItem:"Estil ràpid {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Divisor",quickStyleItem:"Estil ràpid {index}"})}}}));

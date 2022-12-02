@@ -1,1 +1,1 @@
-define({_widgetLabel:"Jaotaja",quickStyleItem:"Kiirstiil {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Jaotaja",quickStyleItem:"Kiirstiil {index}"})}}}));

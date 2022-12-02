@@ -1,1 +1,1 @@
-define({_widgetLabel:"Διαχωριστικό",quickStyleItem:"Γρήγορο στυλ {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Διαχωριστικό",quickStyleItem:"Γρήγορο στυλ {index}"})}}}));

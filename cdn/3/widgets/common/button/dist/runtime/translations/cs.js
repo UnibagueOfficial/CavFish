@@ -1,1 +1,1 @@
-define({_widgetLabel:"Tlačítko"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Tlačítko"})}}}));

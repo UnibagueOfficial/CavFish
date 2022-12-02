@@ -3,15 +3,15 @@
   "strokeStyle": {
     "type": "Style0",
     "color": "var(--dark)",
-    "size": "2px"
+    "size": "3px"
   },
   "pointStart": {
     "pointStyle": "None",
-    "pointSize": 2
+    "pointSize": 3
   },
   "pointEnd": {
     "pointStyle": "None",
-    "pointSize": 2
+    "pointSize": 3
   },
   "themeStyle": {
     "quickStyleType": "Default"

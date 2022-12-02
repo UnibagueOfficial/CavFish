@@ -1,1 +1,1 @@
-define({subMenuExpandMode:"Način povečave podmenija",mainMenu:"Glavni meni",subMenu:"Podmeni"});
+System.register([],(function(e){return{execute:function(){e({subMenuExpandMode:"Način povečave podmenija",mainMenu:"Glavni meni",subMenu:"Podmeni"})}}}));

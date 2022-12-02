@@ -1,1 +1,1 @@
-define({_widgetLabel:"Divisore",quickStyleItem:"Stile rapido {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Divisore",quickStyleItem:"Stile rapido {index}"})}}}));

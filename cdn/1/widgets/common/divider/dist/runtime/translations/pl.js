@@ -1,1 +1,1 @@
-define({_widgetLabel:"Ogranicznik",quickStyleItem:"Szybki styl {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Ogranicznik",quickStyleItem:"Szybki styl {index}"})}}}));

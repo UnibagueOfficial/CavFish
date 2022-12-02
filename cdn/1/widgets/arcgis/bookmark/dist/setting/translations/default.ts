@@ -54,5 +54,6 @@ export default {
   initBookmarkTips: 'Initialize the first bookmark on the map automatically when the bookmark widget is loaded. If not checked，bookmark will not be activated until manually clicked or navigated to.',
   switchRemind: 'Switching the connected Map widget will clear all saved bookmarks with the current map.',
   bookmarkConfirmTitle: 'Do you want to continue?',
-  changeConfirmTitle: 'Are you sure you want to change the template?'
+  changeConfirmTitle: 'Are you sure you want to change the template?',
+  playEnable: 'Enable play control'
 }

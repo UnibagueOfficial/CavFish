@@ -1,1 +1,1 @@
-define({_widgetLabel:"Meniu"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Meniu"})}}}));

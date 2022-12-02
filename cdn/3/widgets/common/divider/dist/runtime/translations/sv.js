@@ -1,1 +1,1 @@
-define({_widgetLabel:"Avdelare",quickStyleItem:"Snabbstil {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Avdelare",quickStyleItem:"Snabbstil {index}"})}}}));

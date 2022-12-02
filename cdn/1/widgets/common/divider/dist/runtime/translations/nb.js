@@ -1,1 +1,1 @@
-define({_widgetLabel:"Skiller",quickStyleItem:"Hurtigstil {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Skiller",quickStyleItem:"Hurtigstil {index}"})}}}));

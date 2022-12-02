@@ -1,1 +1,1 @@
-define({_widgetLabel:"Painike"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Painike"})}}}));

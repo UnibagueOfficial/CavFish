@@ -1,1 +1,1 @@
-define({_widgetLabel:"Gumb"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Gumb"})}}}));

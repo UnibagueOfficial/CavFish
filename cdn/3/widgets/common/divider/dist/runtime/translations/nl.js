@@ -1,1 +1,1 @@
-define({_widgetLabel:"Scheider",quickStyleItem:"Snel vormgeven {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Scheider",quickStyleItem:"Snel vormgeven {index}"})}}}));

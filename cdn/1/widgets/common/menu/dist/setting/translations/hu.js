@@ -1,1 +1,1 @@
-define({subMenuExpandMode:"Almenü kibontási módja",mainMenu:"Főmenü",subMenu:"Almenü"});
+System.register([],(function(e){return{execute:function(){e({subMenuExpandMode:"Almenü kibontási módja",mainMenu:"Főmenü",subMenu:"Almenü"})}}}));

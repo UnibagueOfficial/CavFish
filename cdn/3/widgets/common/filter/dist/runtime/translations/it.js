@@ -1,1 +1,1 @@
-define({_widgetLabel:"Filtro",allExprsMustBeTrue:"Tutte queste espressioni devono essere vere:",anyExprsMustBeTrue:"Una qualsiasi di queste espressioni è vera:"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Filtro",allExprsMustBeTrue:"Tutte queste espressioni devono essere vere:",anyExprsMustBeTrue:"Una qualsiasi di queste espressioni è vera:"})}}}));

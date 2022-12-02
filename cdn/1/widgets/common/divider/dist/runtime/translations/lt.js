@@ -1,1 +1,1 @@
-define({_widgetLabel:"Sudalinimas",quickStyleItem:"Sparčiai stilizuoti {index}"});
+System.register([],(function(i){return{execute:function(){i({_widgetLabel:"Sudalinimas",quickStyleItem:"Sparčiai stilizuoti {index}"})}}}));

@@ -1,1 +1,1 @@
-define({_widgetLabel:"Valikko"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Valikko"})}}}));

@@ -1,1 +1,1 @@
-define({_widgetLabel:"Dugme"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Dugme"})}}}));

@@ -1,1 +1,1 @@
-define({_widgetLabel:"Κουμπί"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Κουμπί"})}}}));
