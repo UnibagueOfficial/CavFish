@@ -1,1 +1,1 @@
-define({_widgetLabel:"Bouton"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Bouton"})}}}));

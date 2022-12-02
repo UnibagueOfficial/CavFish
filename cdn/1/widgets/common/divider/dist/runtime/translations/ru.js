@@ -1,1 +1,1 @@
-define({_widgetLabel:"Драйвер",quickStyleItem:"Быстрый стиль {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Драйвер",quickStyleItem:"Быстрый стиль {index}"})}}}));

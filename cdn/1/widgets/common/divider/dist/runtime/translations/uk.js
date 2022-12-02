@@ -1,1 +1,1 @@
-define({_widgetLabel:"Роздільник",quickStyleItem:"Швидкий стиль {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Роздільник",quickStyleItem:"Швидкий стиль {index}"})}}}));

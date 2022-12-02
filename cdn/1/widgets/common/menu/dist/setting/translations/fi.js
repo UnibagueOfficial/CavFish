@@ -1,1 +1,1 @@
-define({subMenuExpandMode:"Alivalikon laajennustila",mainMenu:"Päävalikko",subMenu:"Alivalikko"});
+System.register([],(function(n){return{execute:function(){n({subMenuExpandMode:"Alivalikon laajennustila",mainMenu:"Päävalikko",subMenu:"Alivalikko"})}}}));

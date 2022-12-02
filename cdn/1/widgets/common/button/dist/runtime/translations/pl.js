@@ -1,1 +1,1 @@
-define({_widgetLabel:"Przycisk"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Przycisk"})}}}));

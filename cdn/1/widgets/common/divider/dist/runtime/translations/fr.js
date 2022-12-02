@@ -1,1 +1,1 @@
-define({_widgetLabel:"Séparateur",quickStyleItem:"Style rapide {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Séparateur",quickStyleItem:"Style rapide {index}"})}}}));

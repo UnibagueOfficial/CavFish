@@ -1,1 +1,1 @@
-define({_widgetLabel:"תפריט"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"תפריט"})}}}));

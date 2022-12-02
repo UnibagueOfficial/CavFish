@@ -1,1 +1,1 @@
-define({verticalAlign:"יישור אנכי",spaceAround:"מרווח מסביב",spaceBetween:"מרווח בין",spaceEvenly:"מרווח שווה",horizontalAlign:"יישור אופקי",scrollable:"ניתן לגלילה"});
+System.register([],(function(e){return{execute:function(){e({verticalAlign:"יישור אנכי",spaceAround:"מרווח מסביב",spaceBetween:"מרווח בין",spaceEvenly:"מרווח שווה",horizontalAlign:"יישור אופקי",scrollable:"ניתן לגלילה"})}}}));

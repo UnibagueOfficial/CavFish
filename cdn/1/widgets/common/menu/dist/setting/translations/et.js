@@ -1,1 +1,1 @@
-define({subMenuExpandMode:"Alammenüü laiendamise režiim",mainMenu:"Peamenüü",subMenu:"Alammenüü"});
+System.register([],(function(e){return{execute:function(){e({subMenuExpandMode:"Alammenüü laiendamise režiim",mainMenu:"Peamenüü",subMenu:"Alammenüü"})}}}));

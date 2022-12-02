@@ -1,1 +1,1 @@
-define({_widgetLabel:"Osztó",quickStyleItem:"Gyors stílus {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Osztó",quickStyleItem:"Gyors stílus {index}"})}}}));

@@ -1,1 +1,1 @@
-define({_widgetLabel:"ปุ่ม"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"ปุ่ม"})}}}));

@@ -1,1 +1,1 @@
-define({_widgetLabel:"Delitelj",quickStyleItem:"Hitri slog {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Delitelj",quickStyleItem:"Hitri slog {index}"})}}}));
