@@ -1,1 +1,1 @@
-define({_widgetLabel:"Jakaja",quickStyleItem:"Pikatyyli {index}"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Jakaja",quickStyleItem:"Pikatyyli {index}"})}}}));

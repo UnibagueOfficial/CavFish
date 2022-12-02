@@ -1,1 +1,1 @@
-define({subMenuExpandMode:"Udvidelsestilstand for undermenu",mainMenu:"Hovedmenu",subMenu:"Undermenu"});
+System.register([],(function(e){return{execute:function(){e({subMenuExpandMode:"Udvidelsestilstand for undermenu",mainMenu:"Hovedmenu",subMenu:"Undermenu"})}}}));

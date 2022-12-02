@@ -1,1 +1,1 @@
-define({_widgetLabel:"Filtr",allExprsMustBeTrue:"Všechny tyto výrazy musí být pravdivé:",anyExprsMustBeTrue:"Jakýkoliv z těchto výrazů je pravdivý:"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Filtr",allExprsMustBeTrue:"Všechny tyto výrazy musí být pravdivé:",anyExprsMustBeTrue:"Jakýkoliv z těchto výrazů je pravdivý:"})}}}));

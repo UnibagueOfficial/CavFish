@@ -1,1 +1,1 @@
-define({_widgetLabel:"Nabídka"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Nabídka"})}}}));

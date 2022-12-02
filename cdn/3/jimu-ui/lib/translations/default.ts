@@ -1,21 +1,29 @@
 export default {
   // common
+  col: 'Column',
+  row: 'Row',
   iconSize: 'Icon size',
   showIcon: 'Show icon',
   vertical: 'Vertical',
   horizontal: 'Horizontal',
   expand: 'Expand',
   collapse: 'Collapse',
+  expandAll: 'Expand all',
+  collapseAll: 'Collapse all',
   space: 'Spacing',
   appearance: 'Appearance',
   textAlign: 'Text alignment',
+  labelAlign: 'Label alignment',
   alignment: 'Alignment',
   type: 'Type',
   states: 'States',
   textColor: 'Text color',
   fillColor: 'Fill color',
   lineColor: 'Line color',
+  foreground: 'Foreground',
   background: 'Background',
+  foregroundColor: 'Foreground color',
+  backgroundColor: 'Background color',
   border: 'Border',
   borderWidth: 'Border width',
   borderColor: 'Border color',
@@ -39,6 +47,7 @@ export default {
   copy: 'Copy',
   location: 'Location',
   advance: 'Advanced',
+  advancedOptions: 'Advanced options',
   reset: 'Reset',
   play: 'Play',
   pause: 'Pause',
@@ -62,10 +71,16 @@ export default {
   inactive: 'Inactive',
   show: 'Show',
   hide: 'Hide',
+  below: 'Below',
+  above: 'Above',
+  render: 'Render',
   setFilters: 'Set filters',
+  resetAllFilters: 'Reset all filters',
+  resetFilters: 'Reset filters',
   dragHandler: 'Drag handler',
   transparency: 'Transparency',
   selectMapHint: 'Select a map for further configurations.',
+  openInNewWindow: 'Open in a new window',
   // chart
   guides: 'Guides',
   tools: 'Tools',
@@ -91,6 +106,11 @@ export default {
   existing: 'Existing',
   min: 'Min',
   max: 'Max',
+  count: 'Count',
+  mean: 'Mean',
+  median: 'Median',
+  normalDistribution: 'Normal distribution',
+  standardDeviation: 'Standard deviation',
   noLimit: 'No limit',
   outputStatistics: '{name} statistics',
   general: 'General',
@@ -99,9 +119,21 @@ export default {
   undefined: 'Undefined',
   start: 'Start',
   end: 'End',
+  numericFields: 'Numeric fields',
+  transformation: 'Transformation',
+  logarithmic: 'Logarithmic',
+  squareRoot: 'Square root',
+  statisticGraph: 'Statistic graph',
+  fastest: 'Fastest',
+  faster: 'Faster',
+  fast: 'Fast',
+  slow: 'Slow',
+  slower: 'Slower',
+  slowest: 'Slowest',
   //nav
   currentView: 'Current view',
   slider: 'Slider',
+  sliderColor: 'Slider color',
   thumb: 'Thumb',
   thumbHandle: 'Thumb handle',
 
@@ -210,6 +242,9 @@ export default {
   dateOperatorIsBlank: 'is blank',
   dateOperatorIsNotBlank: 'is not blank',
   empty: 'Empty',
+  now: 'Now',
+  maxOfAll: 'Maximum of all',
+  minOfAll: 'Minimum of all',
   today: 'Today',
   yesterday: 'Yesterday',
   tomorrow: 'Tomorrow',
@@ -293,6 +328,7 @@ export default {
   dashDoubleDot: 'Dash double dot',
   double: 'Double',
   solid: 'Solid',
+  offset: 'Offset',
   offsetX: 'Offset X',
   offsetY: 'Offset Y',
   blurRadius: 'Blur radius',
@@ -314,11 +350,12 @@ export default {
   unlock: 'Unlock',
   changeUnit: 'Change unit',
   cornerRadius: 'Corner radius',
-  sameRadius: 'Same radius for all corners',
-  differentRadius: 'Different radius for each corner',
+  indepedentCorners: 'Independent corners',
   gap: 'Gap',
   unit: 'Unit',
   unified: 'Unified',
+  uniform: 'Uniform',
+  mixed: 'Mixed',
   independent: 'Independent',
   unifiedNumericValue: 'Unified numeric value',
   // rich-text-editor
@@ -348,6 +385,7 @@ export default {
   linkTo: 'Link to',
   characterSpacing: 'Character spacing',
   lineSpacing: 'Line spacing',
+  indent: 'Indent',
   indentLeft: 'Decrease indent',
   indentRight: 'Increase indent',
   normal: 'Normal',
@@ -413,10 +451,12 @@ export default {
   currentPage: 'Current page',
   invalidUrlMessage: 'Invalid URL. Please check and try again.',
   httpsUrlMessage: 'Only HTTPS is supported.',
-  websitePlaceholder: 'Enter URL (HTTPS only)',
+  invalidUrlScheme: 'Use the supported schemes: {https_or_mailto_or_others}.',
+  websitePlaceholder: 'Enter URL',
   jumpTo: 'Jump to',
   pageTop: 'Page top',
   printPreview: 'Print preview',
+  printCurrentPage: 'Print current page',
 
   // proxy-setting
   subscriberContents: 'Subscriber contents',
@@ -502,6 +542,7 @@ export default {
   numberField: 'Number field',
   stringField: 'String field',
   dateField: 'Date field',
+  domainField: 'Domain field',
 
   // data-source-selector/data-source-selector
   connectToData: 'Connect to data',
@@ -538,6 +579,7 @@ export default {
   rootFolder: 'Root folder',
   addDataErrorInvalidSceneLayer: 'Scene layer without an associated feature layer is not supported.',
   addDataErrorNotSupported: 'Data type is not supported yet.',
+  addDataErrorUnsupportedMap: 'This Web Map version is not supported.',
 
   creatProxyToPublishAppError: 'Publish failed. Cannot create proxy for subscriber contents. Try again later or modify the authorization.',
 
@@ -555,6 +597,7 @@ export default {
   livingAtlas: 'Living Atlas',
   noItemFoundWarning: "We couldn't find what you were looking for. Please try another one.",
   ownerIs: 'Owner: {ownerName}',
+  updatedOn: 'Updated: {updatedDate}',
 
   // item-selector/item-detail
   details: 'Details',
@@ -579,6 +622,7 @@ export default {
   uploadImage: 'Upload',
   nextStepForImage: 'Next',
   urlIsHereForImage: 'Type URL here',
+  enterHttpsOrBase64: 'Enter HTTPS or Base64 image URL',
   uploadImageError: 'Error',
   imageTypeError: 'You have specified an image type that is not supported. Please use one of these types: PNG, GIF, JPG, JPEG or BMP.',
   saveAsNewTemplate: 'Save as a new template',
@@ -590,9 +634,7 @@ export default {
 
   // theme-components
   padding: 'Padding',
-  // theme-components/theme-selector
   waitForThemeList: 'Getting themes list...',
-  // theme-components/theme-quickstyler
   themeSectionColor: 'Color',
   themeSectionFont: 'Font',
   themeSettingThemeColors: 'Theme colors',
@@ -690,6 +732,7 @@ export default {
 
   mapPin: 'Pin',
   envelope: 'Mail',
+  envelope2: 'Mail 2',
   phone: 'Phone',
   arrowDown: 'Swipe down arrow',
   arrowUp: 'Swipe up arrow',
@@ -700,6 +743,12 @@ export default {
   arrowLeft2: 'Leftwards arrow',
   arrowRight2: 'Rightwards arrow',
   caret: 'Downwards filled triangle arrow',
+  info: 'Info',
+  share2: 'Share 2',
+  share3: 'Share 3',
+  share4: 'Share 4',
+  star: 'Star',
+  star2: 'Star 2',
 
   // color-picker
   themeColor: 'Theme colors',
@@ -749,6 +798,7 @@ export default {
   linkedin: 'LinkedIn',
   copiedToClipboard: 'Copied to clipboard',
   // fly
+  select3DMapHint: 'Please select a map with 3D data.',
   tilt: 'Tilt',
   altitude: 'Altitude',
   ground: 'Ground',
@@ -757,6 +807,8 @@ export default {
   relative2Ground: 'Relative to ground',
   absolute: 'Absolute',
   extendPath2Gground: 'Extend path to ground',
+  // progress
+  progressPCT: 'Progress percentage',
 
   // jimu-map
   mapFailure: 'Creating map failed.',
@@ -870,6 +922,19 @@ export default {
   unitsLabelSquareKilometers: 'Square kilometers',
   unitsNameSquareMiles: 'square miles',
   unitsLabelSquareMiles: 'Square miles',
+  // extra units in coordinates
+  unitsInches: 'Inches',
+  unitsFoot_US: 'Feet_US',
+  unitsMillimeters: 'Millimeters',
+  unitsCentimeters: 'Centimeters',
+  unitsDecimeters: 'Decimeters',
+  unitsDecimalDegrees: 'Degrees',
+  unitsDegreesDecimalMinutes: 'Degrees decimal minutes',
+  unitsDegreeMinutesSeconds: 'Degrees minutes seconds',
+  unitsMgrs: 'MGRS',
+  unitsUsng: 'USNG',
+  feetAbbr: 'ft',
+  kilometerAbbr: 'km',
 
   // status-bar
   fixedWindows: 'Fixed windows',
@@ -978,10 +1043,13 @@ export default {
   gentle: 'Gentle',
   wobbly: 'Wobbly',
   stiff: 'Stiff',
-  slow: 'Slow',
   molasses: 'Molasses',
   preview: 'Preview',
   change: 'Change',
+  withprevious: 'With previous',
+  afterprevious: 'After previous',
+  allatonce: 'All at once',
+  onebyone: 'One by one',
 
   // transitions
   transition: 'Transition',
@@ -1024,11 +1092,14 @@ export default {
 
   //pagination
   pageNumber: 'Page {pageNumber}',
+  pageSelect: '{pageNumber} /page',
+  goToPage: 'Go to page',
 
   addWidget: 'Add widget',
 
   noCommaInLabel: 'Comma is not allowed in the label',
   duplicatedLabel: 'The label is duplicated',
+  duplicatedService: 'This service is already added',
 
   editExperienceInfo: 'Edit experience info',
   editExperienceTemplateInfo: 'Edit experience template info',
@@ -1045,7 +1116,7 @@ export default {
 
   // Choose template
   blankTemplate: 'Blank',
-  wabClassicTemplate: 'WAB classic',
+  wabClassicTemplate: 'Web AppBuilder classic',
   mapCentricTemplate: 'Map centric',
   dashboardTemplate: 'Dashboard',
   webPageTemplate: 'Web page',
@@ -1068,7 +1139,6 @@ export default {
   layerSource: 'Layer source',
   locatorSource: 'Locator source',
   searchIcon: 'Icon',
-  searchOption: 'Search options',
   selectSearchFields: 'Select searching fields',
   exactMatch: 'Exact match',
   displayFields: 'Display fields',
@@ -1077,9 +1147,6 @@ export default {
   exampleUrl: 'Example: {url}',
   setLocatorSource: 'Set locator source',
   locatorUrl: 'Locator URL',
-  enterUrl: 'Enter URL (HTTPS only)',
-  onlySupportedHTTPS: 'Only HTTPS is supported',
-  invalidUrl: 'An invalid URL',
   searchOptions: 'Search options',
   arrangement: 'Arrangement',
   arrange: 'Arrange',
@@ -1094,9 +1161,16 @@ export default {
   geocodingService: 'Geocoding Service',
   geoprocessingService: 'Geoprocessing Service',
   networkAnalysisService: 'Network Analysis Service',
+  geoenrichmentService: 'Geoenrichment Service',
+  printingService: 'Printing Service',
+  routingService: 'Routing Service',
   utilityType: 'Utility type',
+  supportedUtilityTypes: 'Supported utility types',
   serviceNotAvailable: 'Service not available',
+  serviceNotSupported: 'This utility service is not supported.',
+  supportedServices: 'Supported utility service types include Printing, Routing, Geocoding, GeoEnrichment and Geometry.',
   items: 'Items',
+  utility: 'Utility',
 
   // element selector, layout placeholder and some widgets
   enterpriseRequired: 'ArcGIS Enterprise subscription required',
@@ -1105,7 +1179,94 @@ export default {
   dataCentric: 'Data centric',
   pageElements: 'Page elements',
   menuAndTollbars: 'Menu and toolbars',
+  requireEnterprise: 'ArcGIS Enterprise subscription required.',
+  requireEnterpriseAndUserTypeExtensions: ' ArcGIS Enterprise subscription and {userTypeExtensions} user-type extension required. ',
 
   portrait: 'Portrait',
-  landscape: 'Landscape'
+  landscape: 'Landscape',
+
+  // 3d-toolbox
+  noSceneInMapWidget: 'This Map widget does not have scene',
+  daylight: 'Daylight',
+  weather: 'Weather',
+  shadowcast: 'Shadow cast',
+  lineofsight: 'Line of sight',
+  listMode: 'List',
+  iconMode: 'Icon',
+  autoPlay: 'Autoplay',
+  enablePlayControl: 'Enable play control',
+  speed: 'Speed',
+  date: 'Date',
+  season: 'Season',
+
+  saveAsAnItem: 'Save as an item',
+  itemNamePlaceholder: '<layername_date_time>',
+  saveItemTip: 'This will copy the data as a new layer item into your organization\'s content.',
+
+  //coordinate-control
+  inputPlaceHolder: 'Enter Coordinates/Address',
+  errorMsgTitle: 'Error',
+  address: 'Address',
+  dd: 'DD',
+  ddm: 'DDM',
+  dms: 'DMS',
+  mgrs: 'MGRS',
+  usng: 'USNG',
+  utm: 'UTM',
+  xy: 'Long-Lat',
+  mapPoint: 'Add Point',
+  copyAll: 'Copy All',
+  copySuccessMessage: 'Copy Successful',
+  inputSettingsTitle: 'Input format settings',
+  defaultCoordinate: 'Default coordinate',
+  coordinateFormat: 'Format',
+  resetFormat: 'Reset format',
+  parseCoordinatesError: 'Unable to parse coordinates. Please check your input.',
+  noAddressFoundMsg: 'No address found',
+  confirmInputNotation: 'Confirm Input Notation',
+  multipleNotationLabel: 'Notations found that match your input. Please confirm which you would like to use:',
+  latLongWarningMessage: 'The input coordinate has been detected as having both a prefix and suffix for the latitude or longitude value, returned coordinate is based on the prefix.',
+  DDLatLongNotation: 'Decimal Degrees - Latitude/Longitude',
+  DDLongLatNotation: 'Decimal Degrees  - Longitude/Latitude',
+  DDMLatLongNotation: 'Degrees Decimal Minutes - Latitude/Longitude',
+  DDMLongLatNotation: 'Degrees Decimal Minutes - Longitude/Latitude',
+  DMSLatLongNotation: 'Degrees Minutes Seconds - Latitude/Longitude',
+  DMSLongLatNotation: 'Degrees Minutes Seconds - Longitude/Latitude',
+  MGRSNotation: 'MGRS',
+  USNGNotation: 'USNG',
+  UTMBandNotation: 'UTM - Band Letter',
+  UTMHemNotation: 'UTM - Hemisphere (N/S)',
+  selectAddress: 'Select address',
+
+  // header function
+  itemDeleteRemind: 'Are you sure you want to delete this item?',
+  unableDelete: 'Item could not be deleted since it is delete protected.',
+  deleteError: 'There was a problem deleting this application.',
+
+  //map-widget-selector
+  currentWindow: 'Current window',
+
+  //hover effects
+  skew: 'Skew',
+  translate: 'Translate',
+  scale: 'Scale',
+  rotate: 'Rotate',
+  opacity: 'Opacity',
+  grow: 'Grow',
+  shrink: 'Shrink',
+  float: 'Float',
+  sink: 'Sink',
+  spin: 'Spin',
+  forward: 'Forward',
+  backward: 'Backward',
+
+  gridItems: 'Grid items',
+  allowResize: 'Allow resize',
+  allowExpansion: 'Allow expansion',
+
+  experienceHigherVersion: 'This experience is in higher version',
+  experienceHigherVersionRemind: 'This experience is built with a higher version of ArcGIS Experience Builder. Incompatible contents may not work.',
+
+  templateHigherVersion: 'This template is in higher version',
+  templateHigherVersionRemind: ' This template is built with a higher version of ArcGIS Experience Builder. Incompatible contents may not work.'
 }

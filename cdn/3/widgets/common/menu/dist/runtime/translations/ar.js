@@ -1,1 +1,1 @@
-define({_widgetLabel:"القائمة"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"القائمة"})}}}));

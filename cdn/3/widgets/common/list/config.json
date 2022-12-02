@@ -18,6 +18,7 @@
   "layoutType": "ROW",
   "alignType": "CENTER",
   "scrollStep": 2,
+  "gridAlignment": "center",
   "cardConfigs": {
     "REGULAR": {
       "cardSize": {

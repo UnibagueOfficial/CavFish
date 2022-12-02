@@ -1,1 +1,1 @@
-define({_widgetLabel:"功能表"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"功能表"})}}}));

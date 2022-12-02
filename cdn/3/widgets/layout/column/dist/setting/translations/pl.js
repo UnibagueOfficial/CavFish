@@ -1,1 +1,1 @@
-define({verticalAlign:"Wyrównanie pionowe",spaceAround:"Odstęp wokół",spaceBetween:"Odstęp między",spaceEvenly:"Równe odstępy",horizontalAlign:"Wyrównanie poziome",scrollable:"Przewijalna"});
+System.register([],(function(e){return{execute:function(){e({verticalAlign:"Wyrównanie pionowe",spaceAround:"Odstęp wokół",spaceBetween:"Odstęp między",spaceEvenly:"Równe odstępy",horizontalAlign:"Wyrównanie poziome",scrollable:"Przewijalna"})}}}));

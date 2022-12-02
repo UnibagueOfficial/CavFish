@@ -1,1 +1,1 @@
-define({_widgetLabel:"Botó"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Botó"})}}}));

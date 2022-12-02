@@ -1,1 +1,1 @@
-define({verticalAlign:"Svislé zarovnání",spaceAround:"Oddělit kolem",spaceBetween:"Oddělit mezi",spaceEvenly:"Oddělit rovnoměrně",horizontalAlign:"Vodorovné zarovnání",scrollable:"Rolovatelný"});
+System.register([],(function(e){return{execute:function(){e({verticalAlign:"Svislé zarovnání",spaceAround:"Oddělit kolem",spaceBetween:"Oddělit mezi",spaceEvenly:"Oddělit rovnoměrně",horizontalAlign:"Vodorovné zarovnání",scrollable:"Rolovatelný"})}}}));

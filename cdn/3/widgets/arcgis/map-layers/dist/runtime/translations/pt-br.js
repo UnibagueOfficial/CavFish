@@ -1,1 +1,1 @@
-define({_widgetLabel:"Camadas do Mapa",goto:"Zoom para",information:"Detalhes",increaseOpacity:"Aumentar opacidade",decreaseOpacity:"Diminuir opacidade"});
+System.register([],(function(a){return{execute:function(){a({_widgetLabel:"Camadas do Mapa",goto:"Zoom para",information:"Detalhes",increaseOpacity:"Aumentar opacidade",decreaseOpacity:"Diminuir opacidade",showLabels:"Mostrar rótulos",hideLabels:"Ocultar rótulos"})}}}));

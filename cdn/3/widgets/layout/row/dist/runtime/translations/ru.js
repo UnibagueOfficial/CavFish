@@ -1,1 +1,1 @@
-define({_widgetLabel:"Строка",widgetProperties:"Свойства виджета",widgetFunctions:"Функции виджета",widgetName:"имя виджета:",widgetProps:"свойства виджета:",tips:"Строка"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Строка",widgetProperties:"Свойства виджета",widgetFunctions:"Функции виджета",widgetName:"имя виджета:",widgetProps:"свойства виджета:",tips:"Строка"})}}}));

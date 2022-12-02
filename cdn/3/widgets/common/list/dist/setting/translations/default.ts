@@ -18,7 +18,7 @@ export default {
   off: 'Off',
   on: 'On',
   chooseTemplateTip: 'Select a template',
-  listUseGuide: "To customize the list design, change the layout of widgets in the first list item by moving default widgets' positions and drag-and-drop new widgets from Insert widget pane. Once List’s data is selected, widgets in the first item will inherit the same data and configure theme individually to populate text or image.",
+  listUseGuide: "To customize the list design, change the layout of widgets in the first list item by moving default widgets' positions and drag-and-drop new widgets from the Insert widget pane. Once the List widget data is selected, widgets in the first item will inherit the same data and configure the theme individually to populate text or images.",
   customListDesign: 'or customize your list design',
   resettingTheTemplate: 'Select another template ',
   emptyTemplate: 'Empty template',
@@ -78,5 +78,6 @@ export default {
   layoutGrid: 'Grid',
   sizeAspectRatio: 'Aspect ratio',
   listKeepAspectRatio: 'Keep aspect ratio',
-  listAligment: 'Aligment'
+  listAligment: 'Aligment',
+  gridItemSize: 'Item size'
 }

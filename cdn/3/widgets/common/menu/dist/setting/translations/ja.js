@@ -1,1 +1,1 @@
-define({subMenuExpandMode:"サブメニュー展開モード",mainMenu:"メイン メニュー",subMenu:"サブメニュー"});
+System.register([],(function(e){return{execute:function(){e({subMenuExpandMode:"サブメニュー展開モード",mainMenu:"メイン メニュー",subMenu:"サブメニュー"})}}}));

@@ -1,1 +1,1 @@
-define({_widgetLabel:"Tombol"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Tombol"})}}}));

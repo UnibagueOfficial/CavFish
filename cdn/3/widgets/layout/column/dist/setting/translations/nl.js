@@ -1,1 +1,1 @@
-define({verticalAlign:"Verticaal uitlijnen",spaceAround:"Ruimte rondom",spaceBetween:"Ruimte tussenin",spaceEvenly:"Ruimte gelijkmatig",horizontalAlign:"Horizontaal uitlijnen",scrollable:"Scrolbaar"});
+System.register([],(function(e){return{execute:function(){e({verticalAlign:"Verticaal uitlijnen",spaceAround:"Ruimte rondom",spaceBetween:"Ruimte tussenin",spaceEvenly:"Ruimte gelijkmatig",horizontalAlign:"Horizontaal uitlijnen",scrollable:"Scrolbaar"})}}}));

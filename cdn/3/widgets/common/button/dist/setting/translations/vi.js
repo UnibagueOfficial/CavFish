@@ -1,1 +1,1 @@
-define({_widgetLabel:"Nút"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Nút"})}}}));

@@ -7,7 +7,6 @@ export default {
   selectMapWidget: 'Select a Map widget',
   addBookmark: 'Add bookmark',
   setBookmarkView: 'Set bookmark view',
-  autoPlayAllow: 'Auto play',
   runtimeAddAllow: 'Allow to add bookmarks in widget',
   autoLoopAllow: 'Loop',
   displayFromWeb: 'Display bookmarks from web map',
@@ -55,5 +54,6 @@ export default {
   initBookmarkTips: 'Initialize the first bookmark on the map automatically when the bookmark widget is loaded. If not checked，bookmark will not be activated until manually clicked or navigated to.',
   switchRemind: 'Switching the connected Map widget will clear all saved bookmarks with the current map.',
   bookmarkConfirmTitle: 'Do you want to continue?',
-  changeConfirmTitle: 'Are you sure you want to change the template?'
+  changeConfirmTitle: 'Are you sure you want to change the template?',
+  playEnable: 'Enable play control'
 }

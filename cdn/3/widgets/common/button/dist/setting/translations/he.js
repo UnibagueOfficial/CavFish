@@ -1,1 +1,1 @@
-define({_widgetLabel:"לחצן"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"לחצן"})}}}));

@@ -1,1 +1,1 @@
-define({_widgetLabel:"Кнопка"});
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Кнопка"})}}}));

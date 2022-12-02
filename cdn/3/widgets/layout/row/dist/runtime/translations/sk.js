@@ -1,1 +1,1 @@
-define({_widgetLabel:"Riadok",widgetProperties:"Vlastnosti widgetu",widgetFunctions:"Funkcie widgetu",widgetName:"názov widgetu:",widgetProps:"vlastnosti widgetu:",tips:"Riadok"});
+System.register([],(function(t){return{execute:function(){t({_widgetLabel:"Riadok",widgetProperties:"Vlastnosti widgetu",widgetFunctions:"Funkcie widgetu",widgetName:"názov widgetu:",widgetProps:"vlastnosti widgetu:",tips:"Riadok"})}}}));
