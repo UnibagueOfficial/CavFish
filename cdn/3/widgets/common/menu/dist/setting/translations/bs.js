@@ -1,1 +1,0 @@
-System.register([],(function(n){return{execute:function(){n({subMenuExpandMode:"Proširenje načina podizbornika",mainMenu:"Glavni izbornik",subMenu:"Podizbornik"})}}}));

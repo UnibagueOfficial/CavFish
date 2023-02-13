@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Kartlag",goto:"Zoom til",information:"Detaljer",increaseOpacity:"Øk opasitet",decreaseOpacity:"Reduser opasitet",showLabels:"Vis etiketter",hideLabels:"Skjul etiketter"})}}}));

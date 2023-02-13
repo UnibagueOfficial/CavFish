@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({subMenuExpandMode:"وضع توسعة القائمة الفرعية",mainMenu:"القائمة الرئيسية",subMenu:"القائمة الفرعية"})}}}));

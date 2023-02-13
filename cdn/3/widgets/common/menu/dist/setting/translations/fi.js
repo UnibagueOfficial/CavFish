@@ -1,1 +1,0 @@
-System.register([],(function(n){return{execute:function(){n({subMenuExpandMode:"Alivalikon laajennustila",mainMenu:"Päävalikko",subMenu:"Alivalikko"})}}}));

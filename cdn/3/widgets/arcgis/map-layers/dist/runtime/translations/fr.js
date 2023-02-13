@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Couches cartographiques",goto:"Zoom sur",information:"Détails",increaseOpacity:"Augmenter l’opacité",decreaseOpacity:"Diminuer l’opacité",showLabels:"Afficher les étiquettes",hideLabels:"Masquer les étiquettes"})}}}));
