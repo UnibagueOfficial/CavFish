@@ -5686,25 +5686,9 @@
           "setting": {
             "heightMode": "fixed"
           }
-        },
-        "15": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "18px",
-            "right": "865px",
-            "top": "0px",
-            "bottom": "498px",
-            "width": "847px",
-            "height": "0px"
-          },
-          "widgetId": "widget_1165",
-          "setting": {
-            "heightMode": "fixed"
-          }
         }
       },
       "order": [
-        "15",
         "0",
         "10",
         "9",
@@ -5886,6 +5870,28 @@
           },
           "widgetId": "widget_931",
           "isPending": true
+        },
+        "6": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "27.0%",
+            "top": "0.0%",
+            "bottom": "94.6%",
+            "width": "0.00%",
+            "height": "0.00%"
+          },
+          "widgetId": "widget_1163",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "width": "CUSTOM",
+              "height": "CUSTOM"
+            }
+          }
         }
       },
       "order": [
@@ -5894,7 +5900,8 @@
         "2",
         "3",
         "4",
-        "5"
+        "5",
+        "6"
       ]
     },
     "layout_362": {
@@ -13712,9 +13719,18 @@
             "height": 315
           },
           "widgetId": "widget_777"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "482px",
+            "height": "0.00px"
+          },
+          "widgetId": "widget_1164"
         }
       },
       "order": [
+        "2",
         "0",
         "1"
       ]
@@ -13990,31 +14006,6 @@
           },
           "isPending": false
         },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "26.7%",
-            "top": "281px",
-            "width": "132px",
-            "height": "14.7%",
-            "right": "27.0%",
-            "bottom": "2.3%"
-          },
-          "widgetId": "widget_801",
-          "setting": {
-            "lockParent": true,
-            "vCenter": false,
-            "hCenter": false,
-            "autoProps": {
-              "width": true,
-              "top": true,
-              "left": false,
-              "right": true,
-              "bottom": false
-            }
-          },
-          "isPending": false
-        },
         "2": {
           "type": "WIDGET",
           "bbox": {
@@ -14044,7 +14035,6 @@
       },
       "order": [
         "0",
-        "1",
         "2"
       ]
     },
@@ -14078,31 +14068,6 @@
           },
           "isPending": false
         },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "26.7%",
-            "top": "281px",
-            "width": "132px",
-            "height": "14.7%",
-            "right": "27.0%",
-            "bottom": "2.3%"
-          },
-          "widgetId": "widget_801",
-          "setting": {
-            "lockParent": true,
-            "vCenter": false,
-            "hCenter": false,
-            "autoProps": {
-              "width": true,
-              "top": true,
-              "left": false,
-              "right": true,
-              "bottom": false
-            }
-          },
-          "isPending": false
-        },
         "2": {
           "type": "WIDGET",
           "bbox": {
@@ -14132,7 +14097,6 @@
       },
       "order": [
         "0",
-        "1",
         "2"
       ]
     },
@@ -14166,40 +14130,15 @@
           },
           "isPending": false
         },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "26.7%",
-            "top": "281px",
-            "width": "132px",
-            "height": "14.7%",
-            "right": "27.0%",
-            "bottom": "2.3%"
-          },
-          "widgetId": "widget_801",
-          "setting": {
-            "lockParent": true,
-            "vCenter": false,
-            "hCenter": false,
-            "autoProps": {
-              "width": true,
-              "top": true,
-              "left": false,
-              "right": true,
-              "bottom": false
-            }
-          },
-          "isPending": false
-        },
         "2": {
           "type": "WIDGET",
           "bbox": {
-            "left": "0.0%",
-            "top": "68.2%",
-            "width": "257px",
-            "height": "33px",
-            "right": "0.0%",
-            "bottom": "19.6%"
+            "left": "-0.1%",
+            "top": "83.0%",
+            "width": "235px",
+            "height": "29px",
+            "right": "0.1%",
+            "bottom": "0.0%"
           },
           "widgetId": "widget_802",
           "setting": {
@@ -14207,8 +14146,8 @@
             "autoProps": {
               "width": true,
               "height": true,
-              "right": false,
-              "left": true,
+              "right": true,
+              "left": false,
               "top": true,
               "bottom": false
             },
@@ -14220,7 +14159,6 @@
       },
       "order": [
         "0",
-        "1",
         "2"
       ]
     },
@@ -20053,10 +19991,25 @@
             "height": "53px"
           },
           "widgetId": "widget_930"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "9px",
+            "width": "3px",
+            "height": "0.00px"
+          },
+          "widgetId": "widget_1165",
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
+          }
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_697": {
@@ -20260,31 +20213,6 @@
           },
           "isPending": false
         },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "26.7%",
-            "top": "281px",
-            "width": "132px",
-            "height": "14.7%",
-            "right": "27.0%",
-            "bottom": "2.3%"
-          },
-          "widgetId": "widget_950",
-          "setting": {
-            "lockParent": true,
-            "vCenter": false,
-            "hCenter": false,
-            "autoProps": {
-              "width": true,
-              "top": true,
-              "left": false,
-              "right": true,
-              "bottom": false
-            }
-          },
-          "isPending": false
-        },
         "2": {
           "type": "WIDGET",
           "bbox": {
@@ -20314,7 +20242,6 @@
       },
       "order": [
         "0",
-        "1",
         "2"
       ]
     },
@@ -20326,11 +20253,11 @@
           "type": "WIDGET",
           "bbox": {
             "top": "0.0%",
-            "width": "385px",
+            "width": "402px",
             "height": "221px",
-            "left": "-0.0%",
-            "right": "2.8%",
-            "bottom": "30.8%"
+            "left": "0.0%",
+            "right": "0.0%",
+            "bottom": "31.8%"
           },
           "widgetId": "widget_949",
           "setting": {
@@ -20340,35 +20267,10 @@
             "widthMode": "ratio",
             "aspectRatio": 1,
             "autoProps": {
-              "left": false,
-              "right": true,
+              "left": true,
+              "right": false,
               "top": false,
               "bottom": true
-            }
-          },
-          "isPending": false
-        },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "26.7%",
-            "top": "281px",
-            "width": "132px",
-            "height": "14.7%",
-            "right": "27.0%",
-            "bottom": "2.3%"
-          },
-          "widgetId": "widget_950",
-          "setting": {
-            "lockParent": true,
-            "vCenter": false,
-            "hCenter": false,
-            "autoProps": {
-              "width": true,
-              "top": true,
-              "left": false,
-              "right": true,
-              "bottom": false
             }
           },
           "isPending": false
@@ -20377,11 +20279,11 @@
           "type": "WIDGET",
           "bbox": {
             "left": "0.0%",
-            "top": "68.2%",
-            "width": "257px",
-            "height": "33px",
+            "top": "84.3%",
+            "width": "402px",
+            "height": "34px",
             "right": "0.0%",
-            "bottom": "19.6%"
+            "bottom": "0.3%"
           },
           "widgetId": "widget_951",
           "setting": {
@@ -20402,7 +20304,6 @@
       },
       "order": [
         "0",
-        "1",
         "2"
       ]
     },
@@ -20436,31 +20337,6 @@
           },
           "isPending": false
         },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "26.7%",
-            "top": "281px",
-            "width": "132px",
-            "height": "14.7%",
-            "right": "27.0%",
-            "bottom": "2.3%"
-          },
-          "widgetId": "widget_950",
-          "setting": {
-            "lockParent": true,
-            "vCenter": false,
-            "hCenter": false,
-            "autoProps": {
-              "width": true,
-              "top": true,
-              "left": false,
-              "right": true,
-              "bottom": false
-            }
-          },
-          "isPending": false
-        },
         "2": {
           "type": "WIDGET",
           "bbox": {
@@ -20490,7 +20366,6 @@
       },
       "order": [
         "0",
-        "1",
         "2"
       ]
     },
@@ -20537,7 +20412,7 @@
           "widgetId": "widget_957",
           "setting": {
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           }
         }
@@ -20554,7 +20429,7 @@
           "type": "WIDGET",
           "bbox": {
             "width": "404px",
-            "height": 1094
+            "height": 977
           },
           "widgetId": "widget_948",
           "isPending": false,
@@ -28205,37 +28080,6 @@
           },
           "widgetId": "widget_542",
           "isPending": false
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_874": {
-      "type": "ROW",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {
-              "alignSelf": "flex-start"
-            },
-            "heightMode": "fixed",
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "aspectRatio": 0.02
-          },
-          "bbox": {
-            "left": "0px",
-            "right": "NaNpx",
-            "top": "NaNpx",
-            "bottom": "NaNpx",
-            "width": "8px",
-            "height": "0.00px"
-          },
-          "widgetId": "widget_1164"
         }
       },
       "order": [
@@ -37513,29 +37357,6 @@
         "sqlExprObj": null,
         "sortFields": null,
         "isCheckEmptyTemplate": false,
-        "searchFields": "Género,Epíteto_específico,Familia,Orden,Nombre_común,Cuenca_hidrográfica,Uso,Estado_de_concervación,Nombre_científico",
-        "sorts": [
-          {
-            "ruleOptionName": "Últimos registros",
-            "isEditOptionName": false,
-            "rule": [
-              {
-                "jimuFieldName": "OBJECTID",
-                "order": "DESC"
-              }
-            ]
-          },
-          {
-            "ruleOptionName": "Primeros registros",
-            "isEditOptionName": false,
-            "rule": [
-              {
-                "jimuFieldName": "OBJECTID",
-                "order": "ASC"
-              }
-            ]
-          }
-        ],
         "isShowAutoRefresh": false,
         "navigatorOpen": false,
         "searchOpen": true,
@@ -37566,18 +37387,7 @@
           "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "rootDataSourceId": "dataSource_15",
-          "fields": [
-            "OBJECTID",
-            "Género",
-            "Epíteto_específico",
-            "Familia",
-            "Orden",
-            "Nombre_común",
-            "Cuenca_hidrográfica",
-            "Uso",
-            "Estado_de_concervación",
-            "Nombre_científico"
-          ]
+          "fields": []
         }
       ],
       "style": {
@@ -37717,10 +37527,7 @@
         {
           "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
-          "rootDataSourceId": "dataSource_15",
-          "fields": [
-            "F1_Enlace"
-          ]
+          "rootDataSourceId": "dataSource_15"
         }
       ],
       "useDataSourcesEnabled": true,
@@ -37749,10 +37556,7 @@
         {
           "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
-          "rootDataSourceId": "dataSource_15",
-          "fields": [
-            "Nombre_científico"
-          ]
+          "rootDataSourceId": "dataSource_15"
         }
       ],
       "useDataSourcesEnabled": true,
@@ -40681,7 +40485,7 @@
     },
     "widget_705": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 1 Encabezado copiar",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 30px; font-family: &quot;Avenir Next&quot;;\">Catálogo Visual</strong></p><p style=\"text-align: center;\"><span style=\"font-size: 15px; color: rgba(255, 234, 29, 0.89); font-family: &quot;Avenir Next&quot;;\">|de Peces de Agua Dulce - Colombia|</span></p>",
@@ -40695,7 +40499,7 @@
     },
     "widget_706": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen 32 copiar",
       "config": {
         "functionConfig": {
@@ -40746,7 +40550,7 @@
     },
     "widget_708": {
       "uri": "widgets/common/menu/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Menú 1 Encabezado copiar",
       "config": {
         "type": "nav",
@@ -40870,7 +40674,7 @@
     },
     "widget_710": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 10",
       "id": "widget_710",
       "layouts": {
@@ -42433,7 +42237,7 @@
     },
     "widget_776": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto título catálogo tabla",
       "config": {
         "text": "<p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-size: 16px;\">     Catálogo visual de peces de agua dulce - Colombia.</strong></p>",
@@ -42447,7 +42251,7 @@
     },
     "widget_777": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto Descripción tablet",
       "config": {
         "text": "<p style=\"text-align: justify;\"><span style=\"color: var(--dark-600); font-size: 16px;\">El&nbsp;</span><strong style=\"color: var(--dark-600); font-size: 16px;\">Proyecto&nbsp;CavFish&nbsp;Colombia</strong><span style=\"color: var(--dark-600); font-size: 16px;\">&nbsp;tiene como&nbsp;</span><strong style=\"color: var(--dark-600); font-size: 16px;\">objetivo</strong><span style=\"color: var(--dark-600); font-size: 16px;\">&nbsp;presentar un recurso en línea e interactivo, que permita a especialistas y público en general&nbsp;</span><strong style=\"color: var(--dark-600); font-size: 16px;\">conocer, estudiar y valorar la riqueza íctica del país</strong><span style=\"color: var(--dark-600); font-size: 16px;\">. Así mismo, pretende generar un espacio de confluencia y unidad para entidades y personas que deseen contribuir al estudio y conservación de los ecosistemas dulceacuícolas.&nbsp;Este esfuerzo que lleva varios años generando valiosa información, intentará ser el recurso cientifico-visual-educativo más completo del país en cuanto a peces de agua dulce se refiere. De este modo, el&nbsp;</span><strong style=\"color: var(--dark-600); font-size: 16px;\">CaVFish&nbsp;servirá como evidencia&nbsp;de la gran diversidad de especies que tiene el país</strong><span style=\"color: var(--dark-600); font-size: 16px;\">, y como una poderosa herramienta que&nbsp;atestigua&nbsp;la importancia de salvarlos.</span></p>",
@@ -42472,7 +42276,7 @@
     },
     "widget_779": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto explorador 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); font-size: 22px; font-family: &quot;Microsoft YaHei&quot;;\">Explorador de especies</strong></p>",
@@ -42504,7 +42308,7 @@
     },
     "widget_780": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bloque Intro",
       "config": {
         "space": 10,
@@ -42551,7 +42355,7 @@
     },
     "widget_785": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna 9",
       "config": {
         "space": 10,
@@ -42575,7 +42379,7 @@
     },
     "widget_786": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bloque explorador",
       "config": {
         "space": 10,
@@ -42622,7 +42426,7 @@
     },
     "widget_791": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna 10",
       "config": {
         "space": 10,
@@ -42646,7 +42450,7 @@
     },
     "widget_792": {
       "uri": "widgets/common/filter/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Filtro catálogo 2",
       "config": {
         "groupByLayer": false,
@@ -44110,7 +43914,7 @@
     },
     "widget_793": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bloque filtro",
       "config": {
         "space": 10,
@@ -44157,7 +43961,7 @@
     },
     "widget_798": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna 11",
       "config": {
         "space": 10,
@@ -44181,7 +43985,7 @@
     },
     "widget_799": {
       "uri": "widgets/common/list/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Lista catálogo tabla",
       "config": {
         "maxItems": 100,
@@ -44207,7 +44011,7 @@
               },
               "MEDIUM": {
                 "width": "50%",
-                "height": "230px"
+                "height": 171
               }
             },
             "enable": true,
@@ -44228,7 +44032,7 @@
               },
               "MEDIUM": {
                 "width": "50%",
-                "height": "230px"
+                "height": 171
               }
             },
             "enable": false,
@@ -44249,7 +44053,7 @@
               },
               "MEDIUM": {
                 "width": "50%",
-                "height": "230px"
+                "height": 171
               }
             },
             "backgroundStyle": {
@@ -44270,29 +44074,6 @@
         "sqlExprObj": null,
         "sortFields": null,
         "isCheckEmptyTemplate": false,
-        "searchFields": "Género,Epíteto_específico,Familia,Orden,Nombre_común,Cuenca_hidrográfica,Uso,Estado_de_concervación,Nombre_científico",
-        "sorts": [
-          {
-            "ruleOptionName": "Últimos registros",
-            "isEditOptionName": false,
-            "rule": [
-              {
-                "jimuFieldName": "OBJECTID",
-                "order": "DESC"
-              }
-            ]
-          },
-          {
-            "ruleOptionName": "Primeros registros",
-            "isEditOptionName": false,
-            "rule": [
-              {
-                "jimuFieldName": "OBJECTID",
-                "order": "ASC"
-              }
-            ]
-          }
-        ],
         "isShowAutoRefresh": false,
         "navigatorOpen": false,
         "searchOpen": true,
@@ -44304,8 +44085,8 @@
         "lockItemRatio": false,
         "layoutType": "GRID",
         "keepAspectRatio": false,
-        "horizontalSpace": 10,
-        "verticalSpace": 10
+        "horizontalSpace": 0,
+        "verticalSpace": 0
       },
       "id": "widget_799",
       "layouts": {
@@ -44323,18 +44104,7 @@
           "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "rootDataSourceId": "dataSource_15",
-          "fields": [
-            "OBJECTID",
-            "Género",
-            "Epíteto_específico",
-            "Familia",
-            "Orden",
-            "Nombre_común",
-            "Cuenca_hidrográfica",
-            "Uso",
-            "Estado_de_concervación",
-            "Nombre_científico"
-          ]
+          "fields": []
         }
       ],
       "style": {
@@ -44357,6 +44127,68 @@
             "widget_558": {
               "enabled": false
             }
+          },
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
           }
         },
         "zoomToFeature": {
@@ -44370,7 +44202,7 @@
     },
     "widget_800": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen lista peces 2",
       "config": {
         "functionConfig": {
@@ -44412,10 +44244,7 @@
         {
           "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
-          "rootDataSourceId": "dataSource_15",
-          "fields": [
-            "F1_Enlace"
-          ]
+          "rootDataSourceId": "dataSource_15"
         }
       ],
       "useDataSourcesEnabled": true,
@@ -44427,107 +44256,9 @@
         }
       }
     },
-    "widget_801": {
-      "uri": "widgets/common/button/",
-      "version": "1.9.0",
-      "label": "Botón lista de peces 2",
-      "config": {
-        "functionConfig": {
-          "text": "",
-          "toolTip": "",
-          "linkParam": {
-            "linkType": "VIEW",
-            "openType": "_self",
-            "value": "page_8,view_49"
-          },
-          "textExpression": {
-            "name": "",
-            "parts": [
-              {
-                "type": "STRING",
-                "exp": "\"\""
-              }
-            ]
-          },
-          "icon": {
-            "data": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 6.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0zm-1.27 4.936a6.5 6.5 0 11.707-.707l4.136 4.137a.5.5 0 11-.707.707l-4.137-4.137z\" fill=\"#000\"></path></svg>",
-            "position": "LEFT"
-          }
-        },
-        "styleConfig": {
-          "name": "Default",
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "rgba(0,0,0,0)",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "rgba(0,0,0,0)",
-                "width": "0px"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "unit": "px",
-                "number": [
-                  2,
-                  2,
-                  2,
-                  2
-                ]
-              },
-              "iconProps": {
-                "color": "#00bcb7",
-                "size": 20
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "#00bcb7",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "0px"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "unit": "px",
-                "number": [
-                  2,
-                  2,
-                  2,
-                  2
-                ]
-              },
-              "iconProps": {
-                "color": "#ffffff",
-                "size": 20
-              }
-            },
-            "clicked": {}
-          },
-          "useCustom": true
-        }
-      },
-      "id": "widget_801",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
-          "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
-          "rootDataSourceId": "dataSource_15"
-        }
-      ],
-      "useDataSourcesEnabled": true
-    },
     "widget_802": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto lista Nombre  2",
       "config": {
         "text": "<p style=\"text-align: center;\"><a href=\"page_8,view_49\" target=\"_self\" data-uniqueid=\"d3812e6a_e219_d8df_f0e6_b0385c8c2953\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22VIEW%22%2C%22openType%22%3A%22_self%22%2C%22value%22%3A%22page_8%2Cview_49%22%7D\" style=\"font-size: 16px; color: rgb(0, 0, 0);\"><strong><em>﻿﻿</em></strong></a><a href=\"page_8,view_49\" target=\"_self\" data-uniqueid=\"d3812e6a_e219_d8df_f0e6_b0385c8c2953\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22VIEW%22%2C%22openType%22%3A%22_self%22%2C%22value%22%3A%22page_8%2Cview_49%22%7D\" style=\"font-size: 16px; color: rgb(0, 0, 0);\"><strong><em><exp data-uniqueid=\"2a8a7c5d_4da3_8f64_ddc4_9701a63e827a\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2%22%2C%22jimuFieldName%22%3A%22Nombre_cient%C3%ADfico%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Nombre científico}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> ﻿</em></strong></a></p>",
@@ -44542,10 +44273,7 @@
         {
           "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
-          "rootDataSourceId": "dataSource_15",
-          "fields": [
-            "Nombre_científico"
-          ]
+          "rootDataSourceId": "dataSource_15"
         }
       ],
       "useDataSourcesEnabled": true,
@@ -44561,7 +44289,7 @@
     },
     "widget_804": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bloque catálogo ",
       "config": {
         "space": 10,
@@ -44608,7 +44336,7 @@
     },
     "widget_809": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna 12",
       "config": {
         "space": 10,
@@ -44654,7 +44382,7 @@
     },
     "widget_811": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto Título nombre científico 2",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 32px; color: rgb(0, 188, 183);\"><em><exp data-uniqueid=\"7b52e2f9_b8dd_ec82_0288_618d23614543\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Nombre_cient%C3%ADfico%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Nombre científico}﻿﻿﻿</span>﻿</exp> ﻿</em></strong></p>",
@@ -44679,7 +44407,7 @@
     },
     "widget_812": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F1  2",
       "config": {
         "functionConfig": {
@@ -44762,7 +44490,7 @@
     },
     "widget_814": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 11",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\">  </a><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\"><exp data-uniqueid=\"cbfba9be_f4c8_b117_ddf8_7ff1ef79bda1\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF1%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{F1 ID}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </a></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Autor(es):</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> <exp data-uniqueid=\"71d47ce2_371e_e803_e395_17d233a8abbc\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF1%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{F1 Autores (es) fotografía}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -44802,7 +44530,7 @@
     },
     "widget_815": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 11",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> <exp data-uniqueid=\"292313a4_3f89_6f6a_91c7_84cb7fc79cf4\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF1%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{F1 proyecto (s) involucrado (s)}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> <exp data-uniqueid=\"d35ac239_c1d5_e65d_f9c5_39ead5a44dd5\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF1%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{F1 Colección (es)}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -44857,7 +44585,7 @@
     },
     "widget_817": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel info foto 12",
       "id": "widget_817",
       "layouts": {
@@ -44877,7 +44605,7 @@
     },
     "widget_818": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F2 2",
       "config": {
         "functionConfig": {
@@ -44960,7 +44688,7 @@
     },
     "widget_820": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto Info foto 3",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </a><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"f9c4d77c_4198_bf70_e82e_620b70f83b38\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF2%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF2%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F2_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F2 ID}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es)</strong><strong style=\"color: rgb(0, 0, 0);\">:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"3634f6d9_da67_7e0d_0869_625722e24921\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF2%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF2%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F2_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F2 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -45000,7 +44728,7 @@
     },
     "widget_821": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 12",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"2b80961f_7e77_574a_970b_12b900b77b57\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF2%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF2%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F2_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F2 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Colección:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"5de0f6cc_31c5_cc61_0321_5d2ae0a0e396\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF2%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF2%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F2_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F2 Colección (es)}</span>﻿</exp> </span></p>",
@@ -45055,7 +44783,7 @@
     },
     "widget_823": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel info foto 14",
       "id": "widget_823",
       "layouts": {
@@ -45075,7 +44803,7 @@
     },
     "widget_824": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F3 2",
       "config": {
         "functionConfig": {
@@ -45158,7 +44886,7 @@
     },
     "widget_826": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 12",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"be08c808_a5c4_abf3_495a_f147d7d295cc\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF3%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF3%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F3_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F3 ID}﻿</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es):</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"61bfb392_2969_03b0_100c_d958c9c9d36f\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF3%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF3%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F3_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F3 Autores (es) fotografía}﻿</span>﻿</exp> </span></p>",
@@ -45198,7 +44926,7 @@
     },
     "widget_827": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 13",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"b99bae49_7a1b_1f85_84c8_87a1c17e8532\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF3%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF3%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F3_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F3 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"1d869e78_b9fb_4a41_7133_9bb0ff138b92\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF3%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF3%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F3_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F3 Colección (es)}</span>﻿</exp> </span></p>",
@@ -45253,7 +44981,7 @@
     },
     "widget_829": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel info foto 16",
       "id": "widget_829",
       "layouts": {
@@ -45273,7 +45001,7 @@
     },
     "widget_830": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F4 2",
       "config": {
         "functionConfig": {
@@ -45356,7 +45084,7 @@
     },
     "widget_832": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 13",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"5d0ecc91_08f6_ad05_bcbe_cfdea9fa300a\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF4%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF4%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F4_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F4 ID}﻿</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es):</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"99a9df92_bda1_b97e_0f92_c793b31ba208\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF4%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF4%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F4_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F4 Autores (es) fotografía}﻿</span>﻿</exp> </span></p>",
@@ -45396,7 +45124,7 @@
     },
     "widget_833": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 14",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"1a6f24f9_8b12_6c40_0ee1_e044c8739e57\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF4%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF4%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F4_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F4 proyecto (s) involucrado (s)}﻿</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"9d25162d_9075_6462_510b_18c7fd014f9f\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF4%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF4%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F4_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F4 Colección (es)}﻿</span>﻿</exp> </span></p>",
@@ -45451,7 +45179,7 @@
     },
     "widget_835": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel info foto 18",
       "id": "widget_835",
       "layouts": {
@@ -45471,7 +45199,7 @@
     },
     "widget_836": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F5 2",
       "config": {
         "functionConfig": {
@@ -45554,7 +45282,7 @@
     },
     "widget_838": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 14",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\">  </a><exp data-uniqueid=\"19312e1a_9660_662c_0bcd_18cf863b2de8\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF5%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF5%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F5_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F5 ID}</span>﻿</exp><span style=\"font-size: 14px;\"> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es):</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"1bb9a4c9_c964_ac28_e6e8_2c077b092648\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF5%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF5%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F5_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F5 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -45594,7 +45322,7 @@
     },
     "widget_839": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 15",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"59839bc1_d349_2415_b663_07751d0d007f\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF5%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF5%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F5_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F5 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"4c27c3d2_c7ae_1435_160a_f718d64a949b\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF5%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF5%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F5_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F5 Colección (es)}</span>﻿</exp> </span></p>",
@@ -45649,7 +45377,7 @@
     },
     "widget_841": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel info foto 20",
       "id": "widget_841",
       "layouts": {
@@ -45669,7 +45397,7 @@
     },
     "widget_842": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F6 2",
       "config": {
         "functionConfig": {
@@ -45752,7 +45480,7 @@
     },
     "widget_844": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 15",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"9955515a_34bd_70c2_cea3_b032bbe39298\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF6%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF6%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F6_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F6 ID}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Autor(es):</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"698a6a14_f88e_d6e4_6d14_2b6530f276ec\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF6%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF6%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F6_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F6 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -45792,7 +45520,7 @@
     },
     "widget_845": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 16",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"fbb7a3f1_a938_af24_13d3_a9de66ea671f\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF6%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF6%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F6_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F6 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Colección:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"22b770cc_5cb4_9578_0f60_59e49b83af24\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF6%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF6%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F6_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F6 Colección (es)}</span>﻿</exp> </span></p>",
@@ -45847,7 +45575,7 @@
     },
     "widget_847": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel info foto 22",
       "id": "widget_847",
       "layouts": {
@@ -45867,7 +45595,7 @@
     },
     "widget_848": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F7 2",
       "config": {
         "functionConfig": {
@@ -45950,7 +45678,7 @@
     },
     "widget_850": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 16",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"68277ab9_0100_c623_6136_17529d271059\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF7%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF7%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F7_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F7 ID}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es):</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"2cc08d5b_0154_33a8_19a3_64d79a15f4e9\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF7%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF7%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F7_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F7 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -45990,7 +45718,7 @@
     },
     "widget_851": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 17",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"62347789_e52e_caea_a982_9556a9bb2c8e\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF7%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF7%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F7_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F7 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"f0dbf89d_0ef6_9c5f_bdf8_d9c6a6be77cf\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF7%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF7%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F7_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F7 Colección (es)}</span>﻿</exp> </span></p>",
@@ -46045,7 +45773,7 @@
     },
     "widget_853": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel info foto 24",
       "id": "widget_853",
       "layouts": {
@@ -46065,7 +45793,7 @@
     },
     "widget_854": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F8 2",
       "config": {
         "functionConfig": {
@@ -46148,7 +45876,7 @@
     },
     "widget_856": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 17",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </a><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"8bf37e3f_da55_8e46_01a9_3703357824bf\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF8%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF8%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F8_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F8 ID}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Autor(es):</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"f121dc70_9cc7_5798_3149_74792a414f04\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF8%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF8%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F8_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F8 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -46188,7 +45916,7 @@
     },
     "widget_857": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 18",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"073d7704_0178_f4d6_6a33_6138b4000c94\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF8%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF8%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F8_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F8 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Colección:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"12c1758e_b937_96f0_11c2_99be81c09aba\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF8%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF8%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F8_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F8 Colección (es)}</span>﻿</exp> </span></p>",
@@ -46243,7 +45971,7 @@
     },
     "widget_859": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel info foto 26",
       "id": "widget_859",
       "layouts": {
@@ -46263,7 +45991,7 @@
     },
     "widget_860": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F9 2",
       "config": {
         "functionConfig": {
@@ -46346,7 +46074,7 @@
     },
     "widget_862": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 18",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"2788531a_0368_06d4_2787_240406db5a43\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF9%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF9%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F9_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F9 ID}</span>﻿</exp>  </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es):</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"7369efd9_dc3e_95bc_d5b1_366d8291199f\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF9%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF9%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F9_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F9 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -46386,7 +46114,7 @@
     },
     "widget_863": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 19",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"7c570268_0211_5a52_59fa_4fb5c88ac0a3\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF9%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF9%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F9_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F9 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"2f4653ac_04e4_dd17_eb00_de22df508d5e\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF9%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF9%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F9_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F9 Colección (es)}</span>﻿</exp> </span></p>",
@@ -46441,7 +46169,7 @@
     },
     "widget_865": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel info foto 28",
       "id": "widget_865",
       "layouts": {
@@ -46461,7 +46189,7 @@
     },
     "widget_866": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F10 2",
       "config": {
         "functionConfig": {
@@ -46544,7 +46272,7 @@
     },
     "widget_868": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 19",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"58f2b27d_cad3_c551_6c58_c989fda584db\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF10%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF10%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F10_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F10 ID}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Autor(es):</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"3379b283_5c22_4b0d_ede7_3e1871c0bfb1\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF10%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF10%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F10_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F10 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -46584,7 +46312,7 @@
     },
     "widget_869": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 20",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"4a0c2664_597e_aba3_e406_7629780e11cb\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF10%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF10%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F10_proyecto__s__involucrado__s%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F10 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Colección:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"bfdfe439_97ea_fdcf_f71a_058486376ac2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF10%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF10%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F10_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F10 Colección (es)}</span>﻿</exp> </span></p>",
@@ -46639,7 +46367,7 @@
     },
     "widget_871": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel info foto 30",
       "id": "widget_871",
       "layouts": {
@@ -46659,7 +46387,7 @@
     },
     "widget_872": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto Distribución geográfica 2",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 30px; color: rgb(0, 188, 183);\">﻿Distribución geográfica</strong></p>",
@@ -46681,7 +46409,7 @@
     },
     "widget_873": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto Cuenca hidrográfica 2",
       "config": {
         "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"font-size: 18px;\">Cuenca hidrográfica: </strong><span style=\"font-size: 18px;\"><exp data-uniqueid=\"e51386fa_86ec_b084_cba9_5ee978eacfa8\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BCuenca%20hidrogr%C3%A1fica%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCuenca%20hidrogr%C3%A1fica%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Cuenca_hidrogr%C3%A1fica%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{Cuenca hidrográfica}﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -46706,10 +46434,16 @@
     },
     "widget_874": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Mapa db_Cavfish  2",
       "config": {
-        "toolConifg": {
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_15",
+        "initialMapState": null,
+        "selectionHighlightColor": "#00FFFF",
+        "disableScroll": false,
+        "layoutIndex": 0,
+        "toolConfig": {
           "canZoom": true,
           "canHome": true,
           "canSearch": true,
@@ -46722,13 +46456,7 @@
           "canLocate": true,
           "canCompass": true,
           "canBaseMap": false
-        },
-        "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_15",
-        "initialMapState": null,
-        "selectionHighlightColor": "#00FFFF",
-        "disableScroll": false,
-        "layoutIndex": 0
+        }
       },
       "id": "widget_874",
       "layouts": {
@@ -46747,7 +46475,7 @@
     },
     "widget_875": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Leyenda 2 copiar 2",
       "config": {
         "style": {
@@ -46836,7 +46564,7 @@
     },
     "widget_879": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto nombre científico 2",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Nombre científico: </strong></p><p><em style=\"font-size: 18px;\"><exp data-uniqueid=\"04fa021b_2b0d_9433_af7f_099d38640a96\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Nombre_cient%C3%ADfico%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Nombre científico}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </em></p>",
@@ -46892,7 +46620,7 @@
     },
     "widget_881": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto autoría 2",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Autoría del nombre científico:</strong></p><p><em style=\"font-size: 18px;\"> </em><span style=\"font-size: 18px;\"><exp data-uniqueid=\"132e0a9f_0d9b_4915_aecf_3c5d8d76114a\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BAutor%C3%ADa%20nombre%20cient%C3%ADfico%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAutor%C3%ADa%20nombre%20cient%C3%ADfico%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Autor%C3%ADa_nombre_cient%C3%ADfico%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿{Autoría nombre científico}﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -46948,7 +46676,7 @@
     },
     "widget_883": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto nombre común 2",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Nombre común: </strong></p><p><br></p><p><span style=\"font-size: 18px;\"><exp data-uniqueid=\"bce89f72_df91_cbc7_e1ce_93a44acf217e\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20com%C3%BAn%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20com%C3%BAn%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Nombre_com%C3%BAn%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Nombre común}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -47004,7 +46732,7 @@
     },
     "widget_885": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto orden 2",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Orden:</strong><span style=\"font-size: 18px;\"> </span></p><p><span style=\"font-size: 18px;\"><exp data-uniqueid=\"7eaa1ae1_d346_ffad_7d75_82ed492820eb\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BOrden%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BOrden%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Orden%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿{Orden}﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -47060,7 +46788,7 @@
     },
     "widget_887": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto familia 2",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Familia:</strong><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"b83b1a9e_0ab2_f1c0_46ad_449ea877a919\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BFamilia%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFamilia%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Familia%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Familia}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p>",
@@ -47140,7 +46868,7 @@
     },
     "widget_890": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto uso 2",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Uso:</strong></p><p><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"e0d90b57_c274_7fd4_570b_fec84d0f06f6\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BUso%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BUso%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Uso%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Uso}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -47196,7 +46924,7 @@
     },
     "widget_892": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto conservación 2",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Estado de conservación:</strong></p><p><strong style=\"font-size: 18px;\"> </strong><span style=\"font-size: 18px;\"><exp data-uniqueid=\"7219b913_cfb4_a91f_71bf_bac8dad6c7fd\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BEstado%20de%20concervaci%C3%B3n%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BEstado%20de%20concervaci%C3%B3n%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Estado_de_concervaci%C3%B3n%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Estado de concervación}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></span></p>",
@@ -47252,7 +46980,7 @@
     },
     "widget_894": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto migración 2",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Migración:</strong><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"d0376c6a_2561_e121_9872_250d6855d9d1\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BMigratoria%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMigratoria%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Migratoria%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{Migratoria}﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p>",
@@ -47308,7 +47036,7 @@
     },
     "widget_896": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto tamaño 2",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Tamaño máximo (cm):</strong></p><p><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"3145700a_284e_ee9f_5997_21d14603fdec\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BTama%C3%B1o%20m%C3%A1ximo%20en%20cm%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTama%C3%B1o%20m%C3%A1ximo%20en%20cm%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Tama%C3%B1o_m%C3%A1ximo_en_cm%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Tamaño máximo en cm}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -47734,7 +47462,7 @@
     },
     "widget_911": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 14",
       "config": null,
       "id": "widget_911",
@@ -47746,7 +47474,7 @@
     },
     "widget_912": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna A 3",
       "config": {
         "space": 10,
@@ -47770,7 +47498,7 @@
     },
     "widget_913": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila Nombre científico 3",
       "config": {
         "space": 10,
@@ -47801,7 +47529,7 @@
     },
     "widget_914": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila Autoría 3",
       "config": {
         "space": 10,
@@ -47832,7 +47560,7 @@
     },
     "widget_915": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila Nombre Común 3",
       "config": {
         "space": 10,
@@ -47863,7 +47591,7 @@
     },
     "widget_916": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila Orden 3",
       "config": {
         "space": 10,
@@ -47894,7 +47622,7 @@
     },
     "widget_917": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila Familia 3",
       "config": {
         "space": 10,
@@ -47925,7 +47653,7 @@
     },
     "widget_918": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna B 3",
       "config": {
         "space": 10,
@@ -47949,7 +47677,7 @@
     },
     "widget_919": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila Uso 3",
       "config": {
         "space": 10,
@@ -47980,7 +47708,7 @@
     },
     "widget_920": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila conservación 3",
       "config": {
         "space": 10,
@@ -48011,7 +47739,7 @@
     },
     "widget_921": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila Migración 3",
       "config": {
         "space": 10,
@@ -48042,7 +47770,7 @@
     },
     "widget_922": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila Tamaño 3",
       "config": {
         "space": 10,
@@ -48073,7 +47801,7 @@
     },
     "widget_923": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 1 copiar copiar copiar 4",
       "config": {
         "space": 10,
@@ -48104,7 +47832,7 @@
     },
     "widget_924": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bloque Info pez tabla",
       "config": {
         "space": 10,
@@ -48151,7 +47879,7 @@
     },
     "widget_929": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna 14",
       "config": {
         "space": 10,
@@ -48175,7 +47903,7 @@
     },
     "widget_930": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto título catálogo cel",
       "config": {
         "text": "<p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-size: 16px;\">Catálogo visual de peces de agua dulce - Colombia.</strong></p>",
@@ -48189,7 +47917,7 @@
     },
     "widget_931": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto Descripción cel",
       "config": {
         "text": "<p style=\"text-align: justify;\"><span style=\"font-size: 16px; color: var(--dark-600);\">El&nbsp;</span><strong style=\"font-size: 16px; color: var(--dark-600);\">Proyecto&nbsp;CaVFish&nbsp;Colombia</strong><span style=\"font-size: 16px; color: var(--dark-600);\">&nbsp;tiene como&nbsp;</span><strong style=\"font-size: 16px; color: var(--dark-600);\">objetivo</strong><span style=\"font-size: 16px; color: var(--dark-600);\">&nbsp;presentar un recurso en línea e interactivo, que permita a especialistas y público en general&nbsp;</span><strong style=\"font-size: 16px; color: var(--dark-600);\">conocer, estudiar y valorar la riqueza íctica del país</strong><span style=\"font-size: 16px; color: var(--dark-600);\">. Así mismo, pretende generar un espacio de confluencia y unidad para entidades y personas que deseen contribuir al estudio y conservación de los ecosistemas dulceacuícolas.&nbsp;Este esfuerzo que lleva varios años generando valiosa información, intentará ser el recurso cientifico-visual-educativo más completo del país en cuanto a peces de agua dulce se refiere. De este modo, el&nbsp;</span><strong style=\"font-size: 16px; color: var(--dark-600);\">CaVFish&nbsp;servirá como evidencia&nbsp;de la gran diversidad de especies que tiene el país</strong><span style=\"font-size: 16px; color: var(--dark-600);\">, y como una poderosa herramienta que&nbsp;atestigua&nbsp;la importancia de salvarlos.</span></p>",
@@ -48203,7 +47931,7 @@
     },
     "widget_932": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bloque 47",
       "config": {
         "space": 10,
@@ -48250,7 +47978,7 @@
     },
     "widget_937": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna 15",
       "config": {
         "space": 10,
@@ -48274,7 +48002,7 @@
     },
     "widget_939": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 7",
       "config": {
         "space": 10,
@@ -48296,7 +48024,7 @@
     },
     "widget_940": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 8",
       "config": {
         "space": 10,
@@ -48318,7 +48046,7 @@
     },
     "widget_941": {
       "uri": "widgets/common/filter/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Filtro catálogo 3",
       "config": {
         "groupByLayer": false,
@@ -48685,7 +48413,7 @@
     },
     "widget_942": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bloque 48",
       "config": {
         "space": 10,
@@ -48732,7 +48460,7 @@
     },
     "widget_947": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna 16",
       "config": {
         "space": 10,
@@ -48756,12 +48484,12 @@
     },
     "widget_948": {
       "uri": "widgets/common/list/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Lista catálogo cel",
       "config": {
         "maxItems": 100,
         "space": 0,
-        "itemsPerPage": 3,
+        "itemsPerPage": 4,
         "isItemStyleConfirm": true,
         "isInitialed": true,
         "pageStyle": "MULTIPAGE",
@@ -48781,8 +48509,8 @@
                 "width": 259
               },
               "SMALL": {
-                "width": "250px",
-                "height": "326.007722007722"
+                "width": 404,
+                "height": 220
               }
             },
             "enable": true,
@@ -48802,8 +48530,8 @@
                 "width": 259
               },
               "SMALL": {
-                "width": "250px",
-                "height": "326.007722007722"
+                "width": 404,
+                "height": 220
               }
             },
             "enable": false,
@@ -48823,8 +48551,8 @@
                 "width": 259
               },
               "SMALL": {
-                "width": "250px",
-                "height": "326.007722007722"
+                "width": 404,
+                "height": 220
               }
             },
             "backgroundStyle": {
@@ -48845,29 +48573,6 @@
         "sqlExprObj": null,
         "sortFields": null,
         "isCheckEmptyTemplate": false,
-        "searchFields": "Género,Epíteto_específico,Familia,Orden,Nombre_común,Cuenca_hidrográfica,Uso,Estado_de_concervación,Nombre_científico",
-        "sorts": [
-          {
-            "ruleOptionName": "Últimos registros",
-            "isEditOptionName": false,
-            "rule": [
-              {
-                "jimuFieldName": "OBJECTID",
-                "order": "DESC"
-              }
-            ]
-          },
-          {
-            "ruleOptionName": "Primeros registros",
-            "isEditOptionName": false,
-            "rule": [
-              {
-                "jimuFieldName": "OBJECTID",
-                "order": "ASC"
-              }
-            ]
-          }
-        ],
         "isShowAutoRefresh": false,
         "navigatorOpen": true,
         "searchOpen": true,
@@ -48898,18 +48603,7 @@
           "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "rootDataSourceId": "dataSource_15",
-          "fields": [
-            "OBJECTID",
-            "Género",
-            "Epíteto_específico",
-            "Familia",
-            "Orden",
-            "Nombre_común",
-            "Cuenca_hidrográfica",
-            "Uso",
-            "Estado_de_concervación",
-            "Nombre_científico"
-          ]
+          "fields": []
         }
       ],
       "style": {
@@ -49007,7 +48701,7 @@
     },
     "widget_949": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen lista peces 3",
       "config": {
         "functionConfig": {
@@ -49040,7 +48734,7 @@
               }
             ]
           },
-          "imageFillMode": "FIT"
+          "imageFillMode": "FILL"
         },
         "styleConfig": {}
       },
@@ -49049,10 +48743,7 @@
         {
           "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
-          "rootDataSourceId": "dataSource_15",
-          "fields": [
-            "F1_Enlace"
-          ]
+          "rootDataSourceId": "dataSource_15"
         }
       ],
       "useDataSourcesEnabled": true,
@@ -49064,107 +48755,9 @@
         }
       }
     },
-    "widget_950": {
-      "uri": "widgets/common/button/",
-      "version": "1.9.0",
-      "label": "Botón lista de peces 3",
-      "config": {
-        "functionConfig": {
-          "text": "",
-          "toolTip": "",
-          "linkParam": {
-            "linkType": "VIEW",
-            "openType": "_self",
-            "value": "page_8,view_49"
-          },
-          "textExpression": {
-            "name": "",
-            "parts": [
-              {
-                "type": "STRING",
-                "exp": "\"\""
-              }
-            ]
-          },
-          "icon": {
-            "data": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 6.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0zm-1.27 4.936a6.5 6.5 0 11.707-.707l4.136 4.137a.5.5 0 11-.707.707l-4.137-4.137z\" fill=\"#000\"></path></svg>",
-            "position": "LEFT"
-          }
-        },
-        "styleConfig": {
-          "name": "Default",
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "rgba(0,0,0,0)",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "rgba(0,0,0,0)",
-                "width": "0px"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "unit": "px",
-                "number": [
-                  2,
-                  2,
-                  2,
-                  2
-                ]
-              },
-              "iconProps": {
-                "color": "#00bcb7",
-                "size": 20
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "#00bcb7",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "0px"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "unit": "px",
-                "number": [
-                  2,
-                  2,
-                  2,
-                  2
-                ]
-              },
-              "iconProps": {
-                "color": "#ffffff",
-                "size": 20
-              }
-            },
-            "clicked": {}
-          },
-          "useCustom": true
-        }
-      },
-      "id": "widget_950",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
-          "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
-          "rootDataSourceId": "dataSource_15"
-        }
-      ],
-      "useDataSourcesEnabled": true
-    },
     "widget_951": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto lista Nombre  3",
       "config": {
         "text": "<p style=\"text-align: center;\"><a href=\"page_8,view_49\" target=\"_self\" data-uniqueid=\"d3812e6a_e219_d8df_f0e6_b0385c8c2953\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22VIEW%22%2C%22openType%22%3A%22_self%22%2C%22value%22%3A%22page_8%2Cview_49%22%7D\" style=\"font-size: 16px; color: rgb(0, 0, 0);\"><strong><em>﻿﻿</em></strong></a><a href=\"page_8,view_49\" target=\"_self\" data-uniqueid=\"d3812e6a_e219_d8df_f0e6_b0385c8c2953\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22VIEW%22%2C%22openType%22%3A%22_self%22%2C%22value%22%3A%22page_8%2Cview_49%22%7D\" style=\"font-size: 16px; color: rgb(0, 0, 0);\"><strong><em><exp data-uniqueid=\"2a8a7c5d_4da3_8f64_ddc4_9701a63e827a\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2%22%2C%22jimuFieldName%22%3A%22Nombre_cient%C3%ADfico%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Nombre científico}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> ﻿</em></strong></a></p>",
@@ -49179,10 +48772,7 @@
         {
           "dataSourceId": "dataSource_15-17dbfb96758-layer-2",
           "mainDataSourceId": "dataSource_15-17dbfb96758-layer-2",
-          "rootDataSourceId": "dataSource_15",
-          "fields": [
-            "Nombre_científico"
-          ]
+          "rootDataSourceId": "dataSource_15"
         }
       ],
       "useDataSourcesEnabled": true,
@@ -49198,7 +48788,7 @@
     },
     "widget_952": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bloque 49",
       "config": {
         "space": 10,
@@ -49245,7 +48835,7 @@
     },
     "widget_957": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna 17",
       "config": {
         "space": 10,
@@ -49269,7 +48859,7 @@
     },
     "widget_958": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bloque 50",
       "config": {
         "space": 10,
@@ -49291,7 +48881,7 @@
     },
     "widget_959": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bloque 51",
       "config": {
         "space": 10,
@@ -49338,7 +48928,7 @@
     },
     "widget_964": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna 18",
       "config": {
         "space": 10,
@@ -49409,7 +48999,7 @@
     },
     "widget_967": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F1  3",
       "config": {
         "functionConfig": {
@@ -49492,7 +49082,7 @@
     },
     "widget_969": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 20",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\">  </a><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\"><exp data-uniqueid=\"cbfba9be_f4c8_b117_ddf8_7ff1ef79bda1\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF1%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{F1 ID}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </a></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Autor(es):</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> <exp data-uniqueid=\"71d47ce2_371e_e803_e395_17d233a8abbc\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF1%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{F1 Autores (es) fotografía}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -49532,7 +49122,7 @@
     },
     "widget_970": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 21",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> <exp data-uniqueid=\"292313a4_3f89_6f6a_91c7_84cb7fc79cf4\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF1%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{F1 proyecto (s) involucrado (s)}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> <exp data-uniqueid=\"d35ac239_c1d5_e65d_f9c5_39ead5a44dd5\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF1%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{F1 Colección (es)}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -49567,7 +49157,7 @@
     },
     "widget_971": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 15",
       "id": "widget_971",
       "layouts": {
@@ -49607,7 +49197,7 @@
     },
     "widget_973": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F2 3",
       "config": {
         "functionConfig": {
@@ -49690,7 +49280,7 @@
     },
     "widget_975": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto Info foto 4",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </a><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"f9c4d77c_4198_bf70_e82e_620b70f83b38\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF2%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF2%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F2_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F2 ID}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es)</strong><strong style=\"color: rgb(0, 0, 0);\">:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"3634f6d9_da67_7e0d_0869_625722e24921\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF2%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF2%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F2_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F2 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -49730,7 +49320,7 @@
     },
     "widget_976": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 22",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"2b80961f_7e77_574a_970b_12b900b77b57\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF2%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF2%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F2_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F2 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Colección:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"5de0f6cc_31c5_cc61_0321_5d2ae0a0e396\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF2%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF2%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F2_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F2 Colección (es)}</span>﻿</exp> </span></p>",
@@ -49765,7 +49355,7 @@
     },
     "widget_977": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 8 copiar 3",
       "id": "widget_977",
       "layouts": {
@@ -49805,7 +49395,7 @@
     },
     "widget_979": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F3 3",
       "config": {
         "functionConfig": {
@@ -49888,7 +49478,7 @@
     },
     "widget_981": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 21",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"be08c808_a5c4_abf3_495a_f147d7d295cc\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF3%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF3%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F3_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F3 ID}﻿</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es):</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"61bfb392_2969_03b0_100c_d958c9c9d36f\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF3%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF3%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F3_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F3 Autores (es) fotografía}﻿</span>﻿</exp> </span></p>",
@@ -49928,7 +49518,7 @@
     },
     "widget_982": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 23",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"b99bae49_7a1b_1f85_84c8_87a1c17e8532\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF3%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF3%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F3_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F3 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"1d869e78_b9fb_4a41_7133_9bb0ff138b92\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF3%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF3%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F3_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F3 Colección (es)}</span>﻿</exp> </span></p>",
@@ -49963,7 +49553,7 @@
     },
     "widget_983": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 8 copiar copiar 3",
       "id": "widget_983",
       "layouts": {
@@ -50003,7 +49593,7 @@
     },
     "widget_985": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F4 3",
       "config": {
         "functionConfig": {
@@ -50086,7 +49676,7 @@
     },
     "widget_987": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 22",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"5d0ecc91_08f6_ad05_bcbe_cfdea9fa300a\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF4%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF4%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F4_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F4 ID}﻿</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es):</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"99a9df92_bda1_b97e_0f92_c793b31ba208\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF4%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF4%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F4_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F4 Autores (es) fotografía}﻿</span>﻿</exp> </span></p>",
@@ -50126,7 +49716,7 @@
     },
     "widget_988": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 24",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"1a6f24f9_8b12_6c40_0ee1_e044c8739e57\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF4%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF4%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F4_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F4 proyecto (s) involucrado (s)}﻿</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"9d25162d_9075_6462_510b_18c7fd014f9f\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF4%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF4%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F4_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{F4 Colección (es)}﻿</span>﻿</exp> </span></p>",
@@ -50161,7 +49751,7 @@
     },
     "widget_989": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 8 copiar copiar copiar 3",
       "id": "widget_989",
       "layouts": {
@@ -50201,7 +49791,7 @@
     },
     "widget_991": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F5 3",
       "config": {
         "functionConfig": {
@@ -50284,7 +49874,7 @@
     },
     "widget_993": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 23",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\">  </a><exp data-uniqueid=\"19312e1a_9660_662c_0bcd_18cf863b2de8\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF5%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF5%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F5_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F5 ID}</span>﻿</exp><span style=\"font-size: 14px;\"> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es):</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"1bb9a4c9_c964_ac28_e6e8_2c077b092648\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF5%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF5%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F5_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F5 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -50324,7 +49914,7 @@
     },
     "widget_994": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 25",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"59839bc1_d349_2415_b663_07751d0d007f\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF5%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF5%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F5_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F5 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"4c27c3d2_c7ae_1435_160a_f718d64a949b\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF5%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF5%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F5_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F5 Colección (es)}</span>﻿</exp> </span></p>",
@@ -50359,7 +49949,7 @@
     },
     "widget_995": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 8 copiar copiar copiar copiar 3",
       "id": "widget_995",
       "layouts": {
@@ -50399,7 +49989,7 @@
     },
     "widget_997": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F6 3",
       "config": {
         "functionConfig": {
@@ -50482,7 +50072,7 @@
     },
     "widget_999": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 24",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"9955515a_34bd_70c2_cea3_b032bbe39298\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF6%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF6%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F6_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F6 ID}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Autor(es):</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"698a6a14_f88e_d6e4_6d14_2b6530f276ec\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF6%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF6%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F6_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F6 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -50522,7 +50112,7 @@
     },
     "widget_1000": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 26",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"fbb7a3f1_a938_af24_13d3_a9de66ea671f\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF6%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF6%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F6_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F6 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Colección:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"22b770cc_5cb4_9578_0f60_59e49b83af24\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF6%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF6%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F6_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F6 Colección (es)}</span>﻿</exp> </span></p>",
@@ -50557,7 +50147,7 @@
     },
     "widget_1001": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 8 copiar copiar copiar copiar copiar 3",
       "id": "widget_1001",
       "layouts": {
@@ -50597,7 +50187,7 @@
     },
     "widget_1003": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F7 3",
       "config": {
         "functionConfig": {
@@ -50680,7 +50270,7 @@
     },
     "widget_1005": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 25",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"68277ab9_0100_c623_6136_17529d271059\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF7%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF7%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F7_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F7 ID}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es):</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"2cc08d5b_0154_33a8_19a3_64d79a15f4e9\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF7%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF7%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F7_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F7 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -50720,7 +50310,7 @@
     },
     "widget_1006": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 27",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"62347789_e52e_caea_a982_9556a9bb2c8e\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF7%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF7%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F7_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F7 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"f0dbf89d_0ef6_9c5f_bdf8_d9c6a6be77cf\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF7%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF7%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F7_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F7 Colección (es)}</span>﻿</exp> </span></p>",
@@ -50755,7 +50345,7 @@
     },
     "widget_1007": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 8 copiar copiar copiar copiar copiar copiar 3",
       "id": "widget_1007",
       "layouts": {
@@ -50795,7 +50385,7 @@
     },
     "widget_1009": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F8 3",
       "config": {
         "functionConfig": {
@@ -50878,7 +50468,7 @@
     },
     "widget_1011": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 26",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </a><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"8bf37e3f_da55_8e46_01a9_3703357824bf\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF8%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF8%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F8_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F8 ID}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Autor(es):</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"f121dc70_9cc7_5798_3149_74792a414f04\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF8%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF8%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F8_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F8 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -50918,7 +50508,7 @@
     },
     "widget_1012": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 28",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"073d7704_0178_f4d6_6a33_6138b4000c94\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF8%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF8%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F8_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F8 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Colección:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"12c1758e_b937_96f0_11c2_99be81c09aba\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF8%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF8%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F8_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F8 Colección (es)}</span>﻿</exp> </span></p>",
@@ -50953,7 +50543,7 @@
     },
     "widget_1013": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 8 copiar copiar copiar copiar copiar copiar copiar 3",
       "id": "widget_1013",
       "layouts": {
@@ -50993,7 +50583,7 @@
     },
     "widget_1015": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F9 3",
       "config": {
         "functionConfig": {
@@ -51076,7 +50666,7 @@
     },
     "widget_1017": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 27",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"color: rgb(0, 0, 0); font-size: 14px;\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"2788531a_0368_06d4_2787_240406db5a43\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF9%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF9%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F9_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F9 ID}</span>﻿</exp>  </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Autor(es):</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"7369efd9_dc3e_95bc_d5b1_366d8291199f\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF9%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF9%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F9_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F9 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -51116,7 +50706,7 @@
     },
     "widget_1018": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 29",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"7c570268_0211_5a52_59fa_4fb5c88ac0a3\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF9%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF9%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F9_proyecto__s__involucrado__s_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F9 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px;\">Colección:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px;\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"2f4653ac_04e4_dd17_eb00_de22df508d5e\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF9%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF9%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F9_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F9 Colección (es)}</span>﻿</exp> </span></p>",
@@ -51151,7 +50741,7 @@
     },
     "widget_1019": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 8 copiar copiar copiar copiar copiar copiar copiar copiar 3",
       "id": "widget_1019",
       "layouts": {
@@ -51191,7 +50781,7 @@
     },
     "widget_1021": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Imagen F10 3",
       "config": {
         "functionConfig": {
@@ -51274,7 +50864,7 @@
     },
     "widget_1023": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto info foto 28",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">ID:</strong><a href=\"\" target=\"_blank\" data-uniqueid=\"0c781a17_726f_3bb4_d425_05c3805589f2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BF1%20Enlace%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF1%20Enlace%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F1_Enlace%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\" style=\"font-size: 14px; color: rgb(0, 0, 0);\">  </a><span style=\"font-size: 14px;\"><exp data-uniqueid=\"58f2b27d_cad3_c551_6c58_c989fda584db\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF10%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF10%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F10_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F10 ID}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Autor(es):</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"3379b283_5c22_4b0d_ede7_3e1871c0bfb1\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF10%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF10%20Autores%20(es)%20fotograf%C3%ADa%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F10_Autores__es__fotograf%C3%ADa%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F10 Autores (es) fotografía}</span>﻿</exp> </span></p>",
@@ -51314,7 +50904,7 @@
     },
     "widget_1024": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto 2 info foto 30",
       "config": {
         "text": "<p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Proyecto involucrado: </strong><span style=\"font-size: 14px;\"><exp data-uniqueid=\"4a0c2664_597e_aba3_e406_7629780e11cb\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF10%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF10%20proyecto%20(s)%20involucrado%20(s)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F10_proyecto__s__involucrado__s%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F10 proyecto (s) involucrado (s)}</span>﻿</exp> </span></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">Colección:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"bfdfe439_97ea_fdcf_f71a_058486376ac2\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BF10%20Colecci%C3%B3n%20(es)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BF10%20Colecci%C3%B3n%20(es)%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22F10_Colecci%C3%B3n__es_%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{F10 Colección (es)}</span>﻿</exp> </span></p>",
@@ -51349,7 +50939,7 @@
     },
     "widget_1025": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 8 copiar copiar copiar copiar copiar copiar copiar copiar copiar 3",
       "id": "widget_1025",
       "layouts": {
@@ -51389,7 +50979,7 @@
     },
     "widget_1027": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto Distribución geográfica 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 30px; color: rgb(0, 188, 183);\">﻿Distribución geográfica</strong></p>",
@@ -51411,7 +51001,7 @@
     },
     "widget_1028": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto Cuenca hidrográfica 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"font-size: 18px;\">Cuenca hidrográfica: </strong><span style=\"font-size: 18px;\"><exp data-uniqueid=\"e51386fa_86ec_b084_cba9_5ee978eacfa8\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BCuenca%20hidrogr%C3%A1fica%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCuenca%20hidrogr%C3%A1fica%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Cuenca_hidrogr%C3%A1fica%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{Cuenca hidrográfica}﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -51436,10 +51026,16 @@
     },
     "widget_1029": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Mapa db_Cavfish  3",
       "config": {
-        "toolConifg": {
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_15",
+        "initialMapState": null,
+        "selectionHighlightColor": "#00FFFF",
+        "disableScroll": false,
+        "layoutIndex": 0,
+        "toolConfig": {
           "canZoom": true,
           "canHome": true,
           "canSearch": true,
@@ -51452,13 +51048,7 @@
           "canLocate": true,
           "canCompass": true,
           "canBaseMap": false
-        },
-        "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_15",
-        "initialMapState": null,
-        "selectionHighlightColor": "#00FFFF",
-        "disableScroll": false,
-        "layoutIndex": 0
+        }
       },
       "id": "widget_1029",
       "layouts": {
@@ -51477,7 +51067,7 @@
     },
     "widget_1030": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Leyenda 2 copiar 3",
       "config": {
         "style": {
@@ -51566,7 +51156,7 @@
     },
     "widget_1034": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto nombre científico 3",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Nombre científico: </strong><em style=\"font-size: 18px;\"><exp data-uniqueid=\"04fa021b_2b0d_9433_af7f_099d38640a96\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Nombre_cient%C3%ADfico%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿{Nombre científico}﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </em></p>",
@@ -51622,7 +51212,7 @@
     },
     "widget_1036": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto autoría 3",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Autoría del nombre científico:</strong><em style=\"font-size: 18px;\"> </em><span style=\"font-size: 18px;\"><exp data-uniqueid=\"132e0a9f_0d9b_4915_aecf_3c5d8d76114a\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BAutor%C3%ADa%20nombre%20cient%C3%ADfico%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAutor%C3%ADa%20nombre%20cient%C3%ADfico%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Autor%C3%ADa_nombre_cient%C3%ADfico%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿{Autoría nombre científico}﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -51678,7 +51268,7 @@
     },
     "widget_1038": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto nombre común 3",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Nombre común: </strong><span style=\"font-size: 18px;\"><exp data-uniqueid=\"bce89f72_df91_cbc7_e1ce_93a44acf217e\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20com%C3%BAn%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20com%C3%BAn%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Nombre_com%C3%BAn%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Nombre común}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p>",
@@ -51734,7 +51324,7 @@
     },
     "widget_1040": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto orden 3",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Orden:</strong><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"7eaa1ae1_d346_ffad_7d75_82ed492820eb\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BOrden%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BOrden%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Orden%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{Orden}﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p>",
@@ -51790,7 +51380,7 @@
     },
     "widget_1042": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto familia 3",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Familia:</strong><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"b83b1a9e_0ab2_f1c0_46ad_449ea877a919\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BFamilia%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFamilia%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Familia%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Familia}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p>",
@@ -51870,7 +51460,7 @@
     },
     "widget_1045": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto uso 3",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Uso:</strong><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"e0d90b57_c274_7fd4_570b_fec84d0f06f6\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BUso%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BUso%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Uso%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{Uso}﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p>",
@@ -51926,7 +51516,7 @@
     },
     "widget_1047": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto conservación 3",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Estado de conservación: </strong><span style=\"font-size: 18px;\"><exp data-uniqueid=\"7219b913_cfb4_a91f_71bf_bac8dad6c7fd\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BEstado%20de%20concervaci%C3%B3n%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BEstado%20de%20concervaci%C3%B3n%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Estado_de_concervaci%C3%B3n%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Estado de concervación}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></span></p><p><br></p>",
@@ -51982,7 +51572,7 @@
     },
     "widget_1049": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto migración 3",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Migración:</strong><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"d0376c6a_2561_e121_9872_250d6855d9d1\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BMigratoria%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMigratoria%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Migratoria%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{Migratoria}﻿﻿﻿﻿﻿</span>﻿</exp> </span></p><p><br></p>",
@@ -52038,7 +51628,7 @@
     },
     "widget_1051": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto tamaño 3",
       "config": {
         "text": "<p><strong style=\"font-size: 18px;\">Tamaño máximo (cm):</strong><span style=\"font-size: 18px;\"> <exp data-uniqueid=\"3145700a_284e_ee9f_5997_21d14603fdec\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BTama%C3%B1o%20m%C3%A1ximo%20en%20cm%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTama%C3%B1o%20m%C3%A1ximo%20en%20cm%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Tama%C3%B1o_m%C3%A1ximo_en_cm%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Tamaño máximo en cm}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
@@ -52094,7 +51684,7 @@
     },
     "widget_1053": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo info pez",
       "id": "widget_1053",
       "layouts": {
@@ -52105,7 +51695,7 @@
     },
     "widget_1054": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna A Cel",
       "config": {
         "space": 10,
@@ -52129,7 +51719,7 @@
     },
     "widget_1055": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 9",
       "config": {
         "space": 10,
@@ -52160,7 +51750,7 @@
     },
     "widget_1056": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 1 copiar 7",
       "config": {
         "space": 10,
@@ -52191,7 +51781,7 @@
     },
     "widget_1057": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 1 copiar 8",
       "config": {
         "space": 10,
@@ -52222,7 +51812,7 @@
     },
     "widget_1058": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 1 copiar 2 copiar 5",
       "config": {
         "space": 10,
@@ -52253,7 +51843,7 @@
     },
     "widget_1059": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 1 copiar copiar 6",
       "config": {
         "space": 10,
@@ -52284,7 +51874,7 @@
     },
     "widget_1060": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Columna B Cel",
       "config": {
         "space": 10,
@@ -52308,7 +51898,7 @@
     },
     "widget_1061": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 1 copiar 9",
       "config": {
         "space": 10,
@@ -52339,7 +51929,7 @@
     },
     "widget_1062": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 1 copiar 2 copiar 6",
       "config": {
         "space": 10,
@@ -52370,7 +51960,7 @@
     },
     "widget_1063": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 1 copiar copiar 7",
       "config": {
         "space": 10,
@@ -52401,7 +51991,7 @@
     },
     "widget_1064": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 1 copiar 2 copiar copiar 3",
       "config": {
         "space": 10,
@@ -52432,7 +52022,7 @@
     },
     "widget_1065": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Fila 1 copiar copiar copiar 6",
       "config": {
         "space": 10,
@@ -52833,7 +52423,7 @@
     },
     "widget_1079": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Texto Título nombre científico Cel",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 32px; color: rgb(0, 188, 183);\"><em><exp data-uniqueid=\"7b52e2f9_b8dd_ec82_0288_618d23614543\" data-dsid=\"dataSource_15-17dbfb96758-layer-2\" data-expression=\"%7B%22name%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNombre%20cient%C3%ADfico%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-17dbfb96758-layer-2-selection%22%2C%22jimuFieldName%22%3A%22Nombre_cient%C3%ADfico%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Nombre científico}﻿﻿﻿</span>﻿</exp> ﻿</em></strong></p>",
@@ -52858,7 +52448,7 @@
     },
     "widget_1080": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Encabezado movil",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 50px;\">Catálogo Visual</strong></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; color: rgba(255, 234, 29, 0.89); font-size: 21px;\">de Peces de Agua Dulce - Colombia</span></p>",
@@ -52872,7 +52462,7 @@
     },
     "widget_1081": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Panel fijo 6",
       "id": "widget_1081",
       "layouts": {
@@ -55133,34 +54723,26 @@
         }
       }
     },
-    "widget_1164": {
+    "widget_1163": {
       "uri": "widgets/DisableRightClick/",
       "version": "1.8.0",
       "label": "Disable Right Click",
       "config": {},
+      "id": "widget_1163"
+    },
+    "widget_1164": {
+      "uri": "widgets/DisableRightClick/",
+      "version": "1.8.0",
+      "label": "Disable Right Click 2",
+      "config": {},
       "id": "widget_1164"
     },
     "widget_1165": {
-      "uri": "widgets/layout/row/",
-      "version": "1.10.0",
-      "label": "Bloque 56",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_1165",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_874"
-        }
-      }
+      "uri": "widgets/DisableRightClick/",
+      "version": "1.8.0",
+      "label": "Disable Right Click 3",
+      "config": {},
+      "id": "widget_1165"
     }
   },
   "widgetsManifest": {},
@@ -56227,14 +55809,16 @@
       ],
       "arrowsNav": {
         "visible": true,
-        "size": 60,
-        "offset": 10,
+        "size": "36",
+        "offset": "2",
         "direction": "v"
       },
       "autoPlay": true,
       "interval": 5,
       "dotsNav": {
-        "visible": false
+        "visible": false,
+        "position": "r",
+        "size": "7"
       },
       "loop": true,
       "transition": {
@@ -57282,7 +56866,7 @@
     "backgroundColor": "#000000"
   },
   "customTheme": {},
-  "timestamp": 1669996375598,
+  "timestamp": 1676311706995,
   "screenGroups": {
     "screenGroup_1": {
       "transitionType": "FADE",

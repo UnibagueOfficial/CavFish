@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({subMenuExpandMode:"Modo de expansión de submenú",mainMenu:"Menú principal",subMenu:"Submenú"})}}}));

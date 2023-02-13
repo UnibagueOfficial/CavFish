@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Karten-Layer",goto:"Zoomen auf",information:"Details",increaseOpacity:"Opazität erhöhen",decreaseOpacity:"Opazität verringern",showLabels:"Beschriftungen anzeigen",hideLabels:"Beschriftungen ausblenden"})}}}));
