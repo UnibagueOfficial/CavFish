@@ -5875,9 +5875,9 @@
           "type": "WIDGET",
           "bbox": {
             "left": "0.0%",
-            "right": "27.0%",
+            "right": "36.5%",
             "top": "0.0%",
-            "bottom": "94.6%",
+            "bottom": "0.0%",
             "width": "0.00%",
             "height": "0.00%"
           },
@@ -5886,10 +5886,8 @@
             "autoProps": {
               "left": false,
               "right": true,
-              "top": false,
-              "bottom": true,
-              "width": "CUSTOM",
-              "height": "CUSTOM"
+              "top": true,
+              "bottom": false
             }
           }
         }
@@ -13723,10 +13721,15 @@
         "2": {
           "type": "WIDGET",
           "bbox": {
-            "width": "482px",
-            "height": "0.00px"
+            "width": "0.00px",
+            "height": "375px"
           },
-          "widgetId": "widget_1164"
+          "widgetId": "widget_1164",
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM"
+            }
+          }
         }
       },
       "order": [
@@ -56866,7 +56869,7 @@
     "backgroundColor": "#000000"
   },
   "customTheme": {},
-  "timestamp": 1676311706995,
+  "timestamp": 1676331018565,
   "screenGroups": {
     "screenGroup_1": {
       "transitionType": "FADE",
